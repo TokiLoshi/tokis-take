@@ -1,5 +1,6 @@
+import { hasSession } from '#/lib/auth'
 import { renderMarkdown } from '#/lib/markdown'
-import { createFileRoute } from '@tanstack/react-router'
+import { createFileRoute, redirect } from '@tanstack/react-router'
 import { createServerFn } from '@tanstack/react-start'
 import { readFile, readdir } from 'node:fs/promises'
 import path from 'node:path'
@@ -25,6 +26,11 @@ async function listFiles(
 const getEvent = createServerFn({ method: 'GET' })
   .validator((slug: string) => slug)
   .handler(async ({ data: slug }) => {
+    if (!hasSession()) {
+      throw redirect({
+        to: '/login',
+      })
+    }
     const md = await readFile(
       path.join(process.cwd(), 'content/events', slug, 'notes.md'),
       'utf8',
