@@ -1,5 +1,5 @@
-
-@import "tailwindcss";
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
 
 * {
   box-sizing: border-box;
@@ -13,5 +13,29 @@ body,
 
 body {
   margin: 0;
+  background-color: #09090b;
+  background-image:
+    radial-gradient(circle 600px at 20% 0%, #c336e659, transparent),
+    radial-gradient(
+      circle 700px at 90% 100%,
+      rgba(99, 102, 241, 0.3),
+      transparent
+    );
+  background-attachment: fixed;
+  min-height: 100vh;
 }
 
+article img {
+  border-radius: 0.5rem;
+  display: inline-block;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+}
+
+article video {
+  max-width: 100%;
+  border-radius: 0.5rem;
+}
+
+article img[width] {
+  height: auto;
+}

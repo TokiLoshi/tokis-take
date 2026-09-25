@@ -10,14 +10,19 @@ function normalizeObsidian(
   base: string,
   files: Map<string, string>,
 ) {
-  return md.replace(/!\[\[([^\]|]+)(?:\|(\d+))?\]\]/g, (_, name, width) => {
+  md = md.replace(
+    /^> \[!(\w+)\]([+-]?) ?(.*)$/gm,
+    (_, type, _fold, title) =>
+      `> <p class="callout-title" data-type="${type}">${title || type}</p>`,
+  )
+  md = md.replace(/!\[\[([^\]|]+)(?:\|(\d+))?\]\]/g, (_, name, width) => {
     const rel = files.get(name)
     if (!rel) return `<em>missing: ${name}</em>`
     const src = `${base}/${rel}`
     if (name.endsWith('.mp4')) return `<video controls src="${src}"></video>`
-    return `<img src="${src}"${width ? ` width="${width}"` : ''} alt="${name}">
-    </img>`
+    return `<img src="${src}"${width ? ` width="${width}"` : ''} alt="${name}">`
   })
+  return md
 }
 
 export async function renderMarkdown(

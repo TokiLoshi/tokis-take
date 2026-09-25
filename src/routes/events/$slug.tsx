@@ -51,5 +51,12 @@ export const Route = createFileRoute('/events/$slug')({
 
 function EventPage() {
   const html = Route.useLoaderData()
-  return <article dangerouslySetInnerHTML={{ __html: html }} />
+  return (
+    <div>
+      <article
+        className="prose prose-invert prose-lg max-w-3xl mx-auto px-6 py--16"
+        dangerouslySetInnerHTML={{ __html: html }}
+      />
+    </div>
+  )
 }
