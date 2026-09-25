@@ -11,6 +11,10 @@ body,
   min-height: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   background-color: #09090b;
@@ -23,6 +27,11 @@ body {
     );
   background-attachment: fixed;
   min-height: 100vh;
+}
+
+h2,
+h3 {
+  scroll-margin-top: 3rem;
 }
 
 article img {
@@ -38,4 +47,18 @@ article video {
 
 article img[width] {
   height: auto;
+}
+
+.callout summary {
+  cursor: pointer;
+  font-weight: 600;
+  list-style: none;
+}
+
+.callout summary::before {
+  content: '▸ ';
+}
+
+.callout[open] summary::before {
+  content: '▾ ';
 }
