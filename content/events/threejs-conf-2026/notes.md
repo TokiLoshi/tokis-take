@@ -5,9 +5,9 @@ The whole motto of the event.
 
 ## 10 September
 
-### David Ronai (Makio64 )
+### David Ronai (Makio64) - Opening Talk
 
-#### Opening Talk - Three.js Conf Founder
+#### Three.js Conf Founder and event organizer
 
 [X](https://x.com/makio64?lang=en)
 [insta](https://www.instagram.com/makio64/)
@@ -27,7 +27,7 @@ David [put it all together the first edition together](https://tympanus.net/codr
 
 ![[david2.mp4]]
 
-> [!question] - The outfit...
+> [!question]- The outfit...
 > What was he wearing? The blue bathrobe/yukata outfid on stage. There are no write-up mentions but there must be a story here. Best guess is a callback to the onsen story.
 
 Really kind and sweet host; hope he does it again. The producer was [Misaki Kitano](https://www.linkedin.com/in/misaki-kitano-99184210b/) She works as a consultant for Sustainability and zero-waste retail systems. Didn't speak a lot but was a powerhouse running all of the things behind the scenes. First saw her when she got flowers at the end and came on stage after David thanked himself, which she said she didn't think he was going to do. It was lovely.
@@ -41,9 +41,9 @@ Really kind and sweet host; hope he does it again. The producer was [Misaki Kita
 - The lion is beautiful; How did he do that?
 - Open Source contributions include: [vite-plugin-tsl-operator](https://github.com/makio64/vite-plugin-tsl-operator) and [makio-meshline](https://github.com/Makio64/makio-meshline) amongst others. Also enjoys rock climbing.
 
-### Vincente Lucendo
+### Vincente Lucendo - From 3D to Feeling
 
-#### From 3D to Feeling (2x Site of the Year)
+#### Making Messenger (1 of the 2x Site of the Year)
 
 Vincente is an independent technologist and artist in the Netherlands. He's won Website of the Year twice.
 [LinkedIn](https://www.linkedin.com/in/vicente-lucendo-16702ab2/)
@@ -63,7 +63,7 @@ Takes us into the process of making Messenger as well as the many side quests an
 He may have been the first to say it, but this was repeated many times: sound is really important. Here is how he designs sound in his experiences. It distinguishes how an experience should be felt. ![[vincente6.jpg]]
 ![[vincente7.jpg]]
 
-### Kim Boutin
+### Kim Boutin - New way of seeing
 
 #### Founder of loadmore.re & New way of Seeing
 
@@ -78,9 +78,9 @@ The badass lady in the Kenzo outfit who handled technical difficulties like a ch
 
 Her MA brought in the feminist book Glitch, where she likens the web to an assembly line, everything being too flat, and we need sites that glitch - unconventional interfaces and new ways of seeing to make the web a much more expressive place.
 
-### Robin Payot
+### Robin Payot - TSL Zelda
 
-#### TSL Zelda
+#### Remaking Zelda for the browser, in three and then with TSL and AI
 
 [website](http://robinpayot.com/)
 [X](https://twitter.com/RobinPayot)
@@ -116,7 +116,7 @@ Mr Doob: hasn't used an IDE in a long time, but he says he never liked programmi
 According to [Codrops](https://tympanus.net/codrops/2026/09/10/inside-the-first-three-js-conference-in-paris/) summary:
 "The struggles that once took weeks to overcome are what build the technical understanding that allows you to push these new tools further. And if AI makes it feel like you can build anything, the new question becomes: when do you stop?"
 
-### GSAP - Cassie Evans
+### Cassie Evans - GSAP
 
 #### Discover the new version of GSAP
 
@@ -141,15 +141,15 @@ She notes the big issue they've been having with AI is less access to the commun
 
 ![[cassie3.jpg]]
 
-### Daria Nevezhyna
+### Daria Nevezhyna - Interactive Design
 
 #### Staging the experience with interactive design
 
 [Daria](https://x.com/darianevezhyna) asks why the web still feels flat when tech can do so much. She highlights the configurator tools she has built, such as a cupboard builder where you can change the number of drawers and the material on the door, and the shadows and reflections change accordingly so you get a more immersive experience and a feel for what it could be like in your space. The idea is that the decision to purchase is made long before the website, and by trying to improve interaction, atmosphere, and storytelling, we can transform the way users experience products online.
 
-### Céia Lopez
+### Céia Lopez - Just Do it!
 
-#### JUST DO IT!
+#### Lessons Learned
 
 [website](https://celialopez.fr/)
 [email](hello@celialopez.fr)
@@ -171,7 +171,7 @@ Key takeaways:
 
 - Keep learning, share your work before it's perfect, keep moving and enjoy (Dream, learn, enjoy)
 
-### Google. HTMkL in Canvas (Thomas and Natalia)
+### Thomas and Natalia - Google HTML in Canvas
 
 [Thomas Nattestad](https://www.linkedin.com/in/thomasnattestad/)
 [Natalia Markoborodova]([Natalia Markoborodova](https://www.linkedin.com/in/natalia-markoborodova/))
@@ -191,7 +191,7 @@ The demo with the translate in forms was really nice for 3D. The conference site
 API is still in Origin stages.
 Has support through THREE.HTMLTexture, opens up "playful hybrids" bringing the semantic utility and built in of HTML to canvas.
 
-### Fal.ai - Lovis Odin
+### Lovis Odin - Fal.ai
 
 #### Training video models on three.js
 
@@ -246,7 +246,7 @@ v fal.live
 ![[odin29.jpg]]
 ![[odin30.jpg]]
 
-### Bruno Simon \* Cassie Evans and Nicolas Barradeau
+### Bruno Simon, Cassie Evans and Nicolas Barradeau - roast
 
 #### ROAST My Portfolio
 
@@ -312,7 +312,7 @@ The speaker badges were awesome, there are some cool videos to link from twitter
 
 Speakers also used it to "make friends". Allegedly, Bruno's wouldn't be friends with Cassie's.
 
-### MrDoob (creator of Three.js)
+### MrDoob
 
 ![[mrdoob.jpg]]
 Created three.js 16 years ago and then people jumped in to help him.
@@ -327,13 +327,13 @@ Views himself as more of a problem solver than a programmer so for him the shift
 
 He's hopeful people will stay curious, and that these tools still require curiosity and understanding but argues that the level at which we work is changing and we're moving one abstraction higher.
 
-### Toast . Networking
+### Toast - Networking
 
 Champagne and chats - met [Diego](https://x.com/maca_graphics) and Mark from Shopify and discussed what they've been working on and what they're excited for. Heard about Damien's talk which was being moved to the next day. Daniel who was supposed to talk couldn't join because he'd just had a baby. He'll be a big part of the Black Friday Cyber Monday dashboard at Shopify and worth looking out for his content and updates as they always do an amazing job breaking it down from the design and technical challenges perspective.
 
 ## 11 September
 
-### Patrick Heng & Justine Soulié
+### Patrick Heng & Justine Soulié - Ponpon Mania
 
 #### Ponpon Mania - Blending Storytelling, Illustration, and WebGL
 
@@ -354,7 +354,7 @@ Pon Pon is a megalomaniac sheep who dreams of being a DJ.
 
 1. They start with the character -> movement/poses.
 2. Character -> environment -> details
-   ![[ponpon2.mp4]]
+                                                                                                               ![[ponpon2.mp4]]
 
 It is sitcom inspired by the likes of Friends and How I Met Your Mother.
 
@@ -372,7 +372,7 @@ Tech challenges: lots of assets, which they optimize with a feature atlas and GP
 Everything is hand-drawn; they use texture atlases, GPU compression, and adaptive quality to keep the experience running smoothly.
 ![[ponpon6.jpg]]
 
-### Dennis Smolek & Kris Baumgartner
+### Dennis Smolek & Kris Baumgartner - pmndrs
 
 #### Pmndrs. Beyond React Three Fiber
 
@@ -457,7 +457,7 @@ upscaler and temporal upscaler, denoisor, camera rig.
 They're always open to experiments and the community jumping in to help.
 ![[pmndrs25.jpg]]
 
-### Shopify - Damien Mortini
+### Damien Mortini - Shopify
 
 #### Three.js - Make the FUN!
 
@@ -515,7 +515,7 @@ Rules for the sites they build:
 3. Wahou effect
 4. Sound and music
 5. 5. Multiplayer
-      ![[damien12.jpg]]
+                                                                                                                                                                                                                              ![[damien12.jpg]]
 
 [tearible UI (Really cool)](https://shouldseethis.com/website/tearable/)
 Confetti machine, why not!?
@@ -545,7 +545,7 @@ Diego also mentioned the scraping (or another term) of all the shops on Shopify 
 
 Damien's advice according to CoDrops: "Be naive, mix things, create a wow effect, use sound, and think multiplayer."
 
-### Miris - Marcus McLean
+### Marcus McLean - Miris
 
 #### Complex 3D assets, delivered instantly
 
@@ -563,7 +563,7 @@ And then you get cool objects like this:
 4. Radiance fields ![[miris7.jpg]] this is like a painter working in brush strokes. Here, it's blobs splattered based on the angle you're looking at, and it's much more efficient.
 5. 1.3 GB is a lot of data, but the source asset was 40GB.
 6. Stream it instead - streaming spatial data ![[miris8.jpg]]
-   This shows how it renders low poly and the details fill in kinda like how you start buffering a show and the image gets sharper and sharper.
+                                                                                                               This shows how it renders low poly and the details fill in kinda like how you start buffering a show and the image gets sharper and sharper.
 
 Spatial streaming:
 This is the most basic, interactive, even if it's not the prettiest, and it is 213,000x faster to get it interactive.
@@ -590,7 +590,7 @@ Summary according to CoDrops: "Miris captures how a scene looks from different v
 Summary according to Coodrops:
 "The biggest opportunity isn't simply productivity. AI shortens the distance between an idea and something you can actually see, test, and iterate on. That means more room to explore, especially for visual work where making something quickly can be the fastest way to understand what needs to change. They also stressed that experience still matters. Knowing how to design and build helps you guide AI, spot when something is wrong, and shape the tools around your own needs rather than accepting what gets generated. AI is opening up more space between imagination and execution."
 
-### EdClub - Mikhail Kiiatkin
+### Mikhail Kiiatkin - EdClub
 
 [X](https://x.com/mesqme)
 [LinkedIn](https://www.linkedin.com/in/mesqme/)
@@ -618,7 +618,7 @@ End product:
 
 CoDrops summary:[Misha Kiiatkin](https://www.linkedin.com/in/mesqme/) took us through the pipeline his team developed for a game, starting with simple low-poly models and hand-painted textures before optimizing everything for Three.js. Texture atlases, KTX2 compression, and geometry batching help turn all that detailed artwork into an efficient final scene, with the goal of keeping the creative process fast without sacrificing the visual style."
 
-### Anderson Mancini
+### Anderson Mancini - WebGPU
 
 #### Production Powered by WebGPU
 
@@ -669,7 +669,7 @@ Postprocessing:
   - RGB distortion - what comes from not focusing on the colors, same as a camera
   - DOF
 - Lens Flare: - It's not aware of depth
-  Raycasting is too expensive ![[anderson22.jpg]]
+                                                                          Raycasting is too expensive ![[anderson22.jpg]]
 
 > [!photo]- Gallery
 > ![[anderson17.jpg]] ![[anderson18.jpg]]
@@ -700,7 +700,7 @@ His projects are [Lumen Decor Studio](https://lumen-decor-studio.vercel.app/) an
 
 Coodrops summary: "How he approaches ambitious WebGPU experiences under a strict technical budget. He shows how techniques borrowed from games, including octahedral imposters for rendering large numbers of trees efficiently, can help create rich environments while keeping the whole experience around just 6MB. Message was clear: start with the visual goal, set your technical limits early, and keep finding creative ways around them."
 
-### Renaud Rohlinger
+### Renaud Rohlinger - Performance Magic
 
 #### Performance and Tricks
 
@@ -729,15 +729,15 @@ To optimize you need to know where the time goes.
 - Visibility buffs?? (basically what Unreal Engine is using) - use id and get the data
 - Kinect for this
 - Media pipe vs kinect (media pipe will never render in relative). Kinnect or macro with neural engine like Apple neural engine, or optimized for GPU Recorded vision OS
-  ![[renault6.jpg]]
-  It took him a month. Shipped once.
-  ![[renault7.jpg]]
-  ![[renault8.jpg]]
-  ![[renault11.jpg]]
-  Three.js blocks - in trial beta
-  Action: try it and reach out. Especially enjoyed his take on how he's using AI in his workflows. This was really helpful.
-  ![[renault12.jpg]]
-  ![[renault13.jpg]]
+                                                                          ![[renault6.jpg]]
+                                                                          It took him a month. Shipped once.
+                                                                          ![[renault7.jpg]]
+                                                                          ![[renault8.jpg]]
+                                                                          ![[renault11.jpg]]
+                                                                          Three.js blocks - in trial beta
+                                                                          Action: try it and reach out. Especially enjoyed his take on how he's using AI in his workflows. This was really helpful.
+                                                                          ![[renault12.jpg]]
+                                                                          ![[renault13.jpg]]
 
 "An agent is only as good as its test"
 
@@ -760,9 +760,7 @@ Main idea: "Push the visuals, then figure out how to make the technology keep up
 ![[renault26.jpg]]
 ![[renault30.jpg]]
 
-### Cassandre Leguay
-
-#### UX Meets Performing Arts
+### Cassandre Leguay - UX Meets performance Arts
 
 Cassandra is an interactive and UX designer. She works at Moment Factory, and went to GOBELINS school.
 [insta](https://www.instagram.com/cassandrely_/)
@@ -799,7 +797,7 @@ The web is a stage and you should stage things properly.
 4. Feedback: User gains satisfaction
 5. Continue: User is motivated (for whatever it is your site is supposed to do)
 
-### Sunag
+### Sunag - TSL
 
 #### TSL From Yesterday to Tomorrow
 
@@ -826,7 +824,7 @@ There should be a photo of him taking a photo at the conference with the backdro
 Codrops summary: "TSL brings GPU logic into JavaScript through composable node systems, connecting materials, post-processing and compute in ways that make complex rendering workflows easier to build and reuse."
 ![[sunag12.jpg]]
 
-### Edwan Kwan
+### Edwan Kwan - Lusion
 
 #### Inside Lusion
 
@@ -839,7 +837,7 @@ Geogen to create the terrain, threw a point light in [Houdini](https://www.sidef
 4. Self-shadowing
 5. Global illumination
 6. Ray trace along axis and combine.
-   ![[edwan.jpg]]
+                                                                                                               ![[edwan.jpg]]
 
 All about prebaking shadows and image sequencing the. baked shadows. How they were able to do this with shadows and display in I think houdini? Was epic and then they go the AI to figure it out.
 ![[edwan1.jpg]]
@@ -905,7 +903,7 @@ Back and forth between them, how they all came from larger companies and are now
 7. Isabel and David (Isabel with the epic NASA data visualizer must say thanks again and play around with it a bit more) ![[Isabelle1.jpg|400]] The Napoleon-themed AI fight: there was some comedy as things went quite wrong in the beginning. Isabel made some beautiful illustrations, and David was the dev wiz. End result was hilarious. ![[Isabelle.jpg|400]]
 8. Matias Perez - JoCo 3D tooling to make blender to three.js workflow easier.
 
-### Antoine Menard
+### Antoine Menard - Merci Michel
 
 #### In the heart of Merci Michel
 
@@ -929,7 +927,7 @@ CoDrops summary: "behind the scenes of how they build environments, showing proj
 [Merci Michel](http://no.merci-michel.com/)
 His bot is called King Antoine.
 
-### Bruno Simon
+### Bruno Simon - Memorable websites
 
 #### Founder of Three.js journey - What makes a memorable website
 
@@ -943,70 +941,70 @@ He's released a new TSL chapter and his portfolio which he drove around on stage
 7 Rules for a Memorable Web Experience
 
 1. Animate Everything
-   ![[bruno5.jpg]]
+                                                                                                               ![[bruno5.jpg]]
 
 - Nomadic Tribe By makemepulse
-  ![[bruno7.jpg]]
+                                                                          ![[bruno7.jpg]]
 - In Pieces - by Bryan James (website that shows endangered species)
-  ![[bruno8.jpg]]
+                                                                          ![[bruno8.jpg]]
 - Anime.js V4 by Julian Garnier
-  ![[bruno9.jpg]]
+                                                                          ![[bruno9.jpg]]
 - Junni Is...
-  ![[bruno10.jpg]]
+                                                                          ![[bruno10.jpg]]
 - KPR By Resn ("A familiar world... set on a different path)
-  ![[bruno11.jpg]]
+                                                                          ![[bruno11.jpg]]
 - David Whyte Experience By Immersive Garden
 
 1. Make it smooth on any device
-   ![[bruno12.jpg]]
+                                                                                                               ![[bruno12.jpg]]
 
 - Pioneer - Corn Revolutionized by Resn
-  ![[bruno13.jpg]]
+                                                                          ![[bruno13.jpg]]
 - CRU-CI-FORM By Jaume sanchez Elias
-  ![[bruno14.jpg]]
+                                                                          ![[bruno14.jpg]]
 - three.js hub
-  ![[bruno15.jpg]]
+                                                                          ![[bruno15.jpg]]
 
 ![[bruno16.mp4]] 3. One Unique Feature
 
 - Elastic Man By David Li
-  ![[bruno17.jpg]]
+                                                                          ![[bruno17.jpg]]
 - Basement Studio By basement studio
-  ![[bruno18.jpg]]
+                                                                          ![[bruno18.jpg]]
 - Paper planes By Active Theory
-  ![[bruno19.jpg]]
+                                                                          ![[bruno19.jpg]]
 - Cursor camp by Neal Agarwal
-  ![[bruno20.jpg]]
+                                                                          ![[bruno20.jpg]]
 - Entangled By Bjorn Staal
-  ![[bruno21.jpg]]
-  ![[bruno21.jpg]]
+                                                                          ![[bruno21.jpg]]
+                                                                          ![[bruno21.jpg]]
 - Pablo the Flamingo
-  ![[bruno23.mp4]]
+                                                                          ![[bruno23.mp4]]
 
 ![[bruno24.jpg]] 4. Iterate Fast
 
 - Hatom By Immersive Garden
-  ![[bruno25.jpg]]
-  ![[bruno25.mp4]]
+                                                                          ![[bruno25.jpg]]
+                                                                          ![[bruno25.mp4]]
 - Bruno's portfolio site
-  ![[bruno26.jpg]]
-  ![[bruno37.mp4]]
+                                                                          ![[bruno26.jpg]]
+                                                                          ![[bruno37.mp4]]
 
 ![[bruno27.jpg]] 5. Keep them entertained
 
 - Keep throwing shit at them
-  ![[bruno28.jpg]]
+                                                                          ![[bruno28.jpg]]
 - My Deejo by BETC & Nicolas Barradeau
 
 ![[bruno30.jpg]] 5. Treat Sound as a Feature not a bonus
 
 - Thankless Games
-  ![[bruno31.jpg]]
+                                                                          ![[bruno31.jpg]]
 - RESN By Resn
-  ![[bruno32.jpg]]
-  ![[bruno34.mp4]]
+                                                                          ![[bruno32.jpg]]
+                                                                          ![[bruno34.mp4]]
 - Revo Realms By Aleksander Gjoreski
-  ![[bruno36.jpg]]
+                                                                          ![[bruno36.jpg]]
 
 ![[bruno.mp4]]
 Codrops summary: "approached the same question (building experience people remember) from the other side, using his own work to share his rules for memorable experiences: animate everything, keep it smooth, find one original feature, iterate quickly, entertain people, use sound as a feature, and collect inspiration long before production begins."

@@ -46,6 +46,7 @@ function normalizeObsidian(
   files: Map<string, string>,
 ) {
   md = convertCallouts(md)
+  md = wrapTalks(md)
   md = md.replace(/!\[\[([^\]|]+)(?:\|(\d+))?\]\]/g, (_, name, width) => {
     const rel = files.get(name)
     if (!rel) return `<em>missing: ${name}</em>`
@@ -98,4 +99,36 @@ export async function renderMarkdown(
     html: String(result),
     toc: extractToc(md),
   }
+}
+
+function wrapTalks(md: string) {
+  const slugger = new GithubSlugger()
+  const out: string[] = []
+  let inTalk = false
+  const close = () => {
+    if (inTalk) {
+      out.push('</details>', '')
+      inTalk = false
+    }
+  }
+  for (const line of md.split('\n')) {
+    if (line.startsWith('### ')) {
+      close()
+      const title = line.slice(4).trim()
+      const id = slugger.slug(title)
+      out.push(
+        `<details class="talk" id="${id}">`,
+        `<summary>${title}</summary>`,
+      )
+      inTalk = true
+    } else if (line.startsWith('## ')) {
+      close()
+      slugger.slug(line.slice(3).trim())
+      out.push(line)
+    } else {
+      out.push(line)
+    }
+  }
+  close()
+  return out.join('\n')
 }

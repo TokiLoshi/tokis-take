@@ -58,16 +58,16 @@ function EventPage() {
           <div key={day.id} className="mb-6">
             <a
               href={`#${day.id}`}
-              className="block text-sm font-semibold uppercase tracking-wide text-neutral-400 hover:text-white"
+              className="block text-sm font-semibold uppercase tracking-wide text-slate-200 hover:text-white"
             >
               {day.title}
             </a>
-            <ul className="mt-2 mb-2 space-y-1 border border-neutral-300 rounded">
+            <ul className="mt-2 mb-2 space-y-1 border border-slate-300 rounded">
               {day.talks.map((t) => (
                 <li key={t.id} className="mb-1 mt-1">
                   <a
                     href={`#${t.id}`}
-                    className="block pl-3 text-sm text-neutral-300 hover:text-white"
+                    className="block pl-3 text-sm text-slate-300 hover:text-white"
                   >
                     {t.title}
                   </a>
@@ -77,15 +77,16 @@ function EventPage() {
           </div>
         ))}
       </nav>
+
       <article
         className="prose prose-invert prose-lg max-w-none"
         dangerouslySetInnerHTML={{ __html: html }}
       />
       <a
         href="#top"
-        className="fixed bottom-6 right-6 rounded-full bg-neutral-800/80 px-3 py-2 text-sm backdrop-blur hover:bg-neutral-700"
+        className="fixed bottom-6 right-6 rounded-full bg-slate-900/80 px-3 py-2 text-sm backdrop-blur hover:bg-slate-700"
       >
-        ↑
+        ↑ Back to the top
       </a>
     </div>
   )
