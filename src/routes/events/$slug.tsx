@@ -4,6 +4,7 @@ import { createFileRoute, redirect } from '@tanstack/react-router'
 import { createServerFn } from '@tanstack/react-start'
 import { readFile, readdir } from 'node:fs/promises'
 import path from 'node:path'
+import { HomeIcon } from 'lucide-react'
 
 async function listFiles(
   dir: string,
@@ -52,42 +53,49 @@ export const Route = createFileRoute('/events/$slug')({
 function EventPage() {
   const { html, toc } = Route.useLoaderData()
   return (
-    <div className="mx-auto max-w-6xl px-6 py-12 lg:grid lg:grid-cols[240px_1fr] lg:gap-12">
-      <nav className="mb-10 lg:mb-0 lg:sticky lg:top-12 lg:max-h-[calc(100vh-6rem)] lg:overflow-y-auto">
-        {toc.map((day) => (
-          <div key={day.id} className="mb-6">
-            <a
-              href={`#${day.id}`}
-              className="block text-sm font-semibold uppercase tracking-wide text-slate-200 hover:text-white"
-            >
-              {day.title}
-            </a>
-            <ul className="mt-2 mb-2 space-y-1 border border-slate-300 rounded">
-              {day.talks.map((t) => (
-                <li key={t.id} className="mb-1 mt-1">
-                  <a
-                    href={`#${t.id}`}
-                    className="block pl-3 text-sm text-slate-300 hover:text-white"
-                  >
-                    {t.title}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
-      </nav>
+    <>
+      <div className="mx-auto max-w-6xl px-6 py-12 lg:grid lg:grid-cols[240px_1fr] lg:gap-12">
+        <nav className="mb-10 lg:mb-0 lg:sticky lg:top-12 lg:max-h-[calc(100vh-6rem)] lg:overflow-y-auto">
+          {toc.map((day) => (
+            <div key={day.id} className="mb-6">
+              <a
+                href={`#${day.id}`}
+                className="block text-sm font-semibold uppercase tracking-wide text-slate-200 hover:text-white"
+              >
+                {day.title}
+              </a>
+              <ul className="mt-2 mb-2 space-y-1 border border-slate-300 rounded">
+                {day.talks.map((t) => (
+                  <li key={t.id} className="mb-1 mt-1">
+                    <a
+                      href={`#${t.id}`}
+                      className="block pl-3 text-sm text-slate-300 hover:text-white"
+                    >
+                      {t.title}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </nav>
 
-      <article
-        className="prose prose-invert prose-lg max-w-none"
-        dangerouslySetInnerHTML={{ __html: html }}
-      />
-      <a
-        href="#top"
-        className="fixed bottom-6 right-6 rounded-full bg-slate-900/80 px-3 py-2 text-sm backdrop-blur hover:bg-slate-700"
-      >
-        ↑ Back to the top
-      </a>
-    </div>
+        <article
+          className="prose prose-invert prose-lg max-w-none"
+          dangerouslySetInnerHTML={{ __html: html }}
+        />
+        <a
+          href="#top"
+          className="fixed bottom-6 right-6 rounded-full bg-slate-900/80 px-3 py-2 text-sm backdrop-blur hover:bg-slate-700"
+        >
+          ↑ Back to the top
+        </a>
+      </div>
+      <div className="p-8 justify-around">
+        <a href="/" className=" hover:text-slate-400">
+          <HomeIcon />
+        </a>
+      </div>
+    </>
   )
 }

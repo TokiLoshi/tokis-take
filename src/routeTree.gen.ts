@@ -12,6 +12,7 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as LoginRouteImport } from './routes/login'
 import { Route as EventsSlugRouteImport } from './routes/events/$slug'
+import { Route as ExperimentsIndexRouteImport } from './routes/experiments/index'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -28,35 +29,44 @@ const EventsSlugRoute = EventsSlugRouteImport.update({
   path: '/events/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ExperimentsIndexRoute = ExperimentsIndexRouteImport.update({
+  id: '/experiments/',
+  path: '/experiments/',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/login': typeof LoginRoute
   '/events/$slug': typeof EventsSlugRoute
+  '/experiments/': typeof ExperimentsIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/login': typeof LoginRoute
   '/events/$slug': typeof EventsSlugRoute
+  '/experiments': typeof ExperimentsIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/login': typeof LoginRoute
   '/events/$slug': typeof EventsSlugRoute
+  '/experiments/': typeof ExperimentsIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/login' | '/events/$slug'
+  fullPaths: '/' | '/login' | '/events/$slug' | '/experiments/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/login' | '/events/$slug'
-  id: '__root__' | '/' | '/login' | '/events/$slug'
+  to: '/' | '/login' | '/events/$slug' | '/experiments'
+  id: '__root__' | '/' | '/login' | '/events/$slug' | '/experiments/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   LoginRoute: typeof LoginRoute
   EventsSlugRoute: typeof EventsSlugRoute
+  ExperimentsIndexRoute: typeof ExperimentsIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -82,6 +92,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof EventsSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/experiments/': {
+      id: '/experiments/'
+      path: '/experiments'
+      fullPath: '/experiments/'
+      preLoaderRoute: typeof ExperimentsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -89,6 +106,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   LoginRoute: LoginRoute,
   EventsSlugRoute: EventsSlugRoute,
+  ExperimentsIndexRoute: ExperimentsIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
