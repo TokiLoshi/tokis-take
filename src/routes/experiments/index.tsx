@@ -1,3 +1,4 @@
+import { Background } from '#/components/Background'
 import { createFileRoute } from '@tanstack/react-router'
 import { FlaskConical, HomeIcon } from 'lucide-react'
 
@@ -8,6 +9,7 @@ export const Route = createFileRoute('/experiments/')({
 function ExperimentPage() {
   return (
     <>
+      <Background />
       <div className="mx-auto max-w-6xl px-6 py-12 justify">
         <div className="justify-center items-center text-center">
           <h2 className="text-2xl">Experiments brewing... brb</h2>

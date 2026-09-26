@@ -1,11 +1,13 @@
+import { Background } from '#/components/Background'
 import { createFileRoute } from '@tanstack/react-router'
-import { HandshakeIcon } from 'lucide-react'
+import { FlaskConicalIcon, HandshakeIcon } from 'lucide-react'
 
 export const Route = createFileRoute('/')({ component: Home })
 
 function Home() {
   return (
     <>
+      <Background />
       <div className="p-8">
         <h1 className="text-4xl font-bold">Toki's Take</h1>
         <p className="text-2xl m-2">Events, experiments etc.</p>
@@ -15,7 +17,7 @@ function Home() {
         </p>
       </div>
       <div className="p-8 mx-auto ms-2 justify-center">
-        <h2 className="text-2xl">Events</h2>
+        <h2 className="text-2xl mb-2">Events</h2>
         <HandshakeIcon />
         <ul>
           <li>
@@ -23,15 +25,18 @@ function Home() {
               href="/events/threejs-conf-2026"
               className="hover:text-slate-300/80"
             >
-              Three.js Conf 2026
+              <ul>
+                <li>Three.js Conf 2026</li>
+              </ul>
             </a>
           </li>
         </ul>
-        <h2 className="text-2xl">Experiments</h2>
-        <HandshakeIcon />
+        <h2 className="text-2xl mb-2">Experiments</h2>
+
+        <FlaskConicalIcon />
         <ul>
           <li>
-            <a href="/experiments/brewing" className="hover:text-slate-300/80">
+            <a href="/experiments" className="hover:text-slate-300/80">
               Experiments
             </a>
           </li>
