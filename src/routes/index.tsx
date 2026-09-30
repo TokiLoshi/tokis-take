@@ -8,9 +8,15 @@ function Home() {
   return (
     <>
       <Background />
+      <main className="mx-auto max-w-3xl px-6 py-16">
+        <header className="mb-12">
+          <h1 className="text-5xl font-bold">Toki's Take</h1>
+          <p className="mt-3 text-slate-300">
+            Events, experiments etc from my Obsidian notebook
+          </p>
+        </header>
+      </main>
       <div className="p-8">
-        <h1 className="text-4xl font-bold">Toki's Take</h1>
-        <p className="text-2xl m-2">Events, experiments etc.</p>
         <p className="m-2">
           Created this as a space to put my Obsidian notes and make them easily
           sharable with anyone else who was curious.
