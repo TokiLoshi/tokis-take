@@ -1,6 +1,7 @@
 import { HeadContent, Scripts, createRootRoute } from '@tanstack/react-router'
 
 import appCss from '../styles.css?url'
+import { Background } from '#/components/Background'
 
 export const Route = createRootRoute({
   head: () => ({
@@ -37,6 +38,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
       <head>
         <HeadContent />
       </head>
+      <Background />
       <body className="bg-neutral-950 text-neutral-100">
         {children}
         <Scripts />

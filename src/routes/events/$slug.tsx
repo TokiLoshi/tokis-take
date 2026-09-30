@@ -5,7 +5,6 @@ import { createServerFn } from '@tanstack/react-start'
 import { readFile, readdir } from 'node:fs/promises'
 import path from 'node:path'
 import { HomeIcon } from 'lucide-react'
-import { Background } from '#/components/Background'
 
 async function listFiles(
   dir: string,
@@ -55,7 +54,6 @@ function EventPage() {
   const { html, toc } = Route.useLoaderData()
   return (
     <>
-      <Background />
       <div className="mx-auto max-w-6xl px-6 py-12 lg:grid lg:grid-cols[240px_1fr] lg:gap-12">
         <nav className="mb-10 lg:mb-0 lg:sticky lg:top-12 lg:max-h-[calc(100vh-6rem)] lg:overflow-y-auto">
           {toc.map((day) => (
