@@ -8,6 +8,9 @@ import tailwindcss from '@tailwindcss/vite'
 import netlify from '@netlify/vite-plugin-tanstack-start'
 
 const config = defineConfig({
+  ssr: {
+    noExternal: ['three', '@react-three/fiber', '@react-three/drei'],
+  },
   resolve: { tsconfigPaths: true },
   plugins: [devtools(), netlify(), tailwindcss(), tanstackStart(), viteReact()],
 })

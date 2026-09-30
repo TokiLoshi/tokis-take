@@ -1,7 +1,15 @@
-import { HeadContent, Scripts, createRootRoute } from '@tanstack/react-router'
-
+import {
+  ClientOnly,
+  HeadContent,
+  Scripts,
+  createRootRoute,
+} from '@tanstack/react-router'
 import appCss from '../styles.css?url'
-import { Background } from '#/components/Background'
+import { lazy, Suspense } from 'react'
+
+const Background = lazy(() =>
+  import('#/components/Background').then((m) => ({ default: m.Background })),
+)
 
 export const Route = createRootRoute({
   head: () => ({
@@ -38,7 +46,12 @@ function RootDocument({ children }: { children: React.ReactNode }) {
       <head>
         <HeadContent />
       </head>
-      <Background />
+      <ClientOnly>
+        <Suspense fallback={null}>
+          <Background />
+        </Suspense>
+      </ClientOnly>
+
       <body className="bg-neutral-950 text-neutral-100">
         {children}
         <Scripts />

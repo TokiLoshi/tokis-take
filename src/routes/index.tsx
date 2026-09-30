@@ -9,17 +9,19 @@ function Home() {
     <>
       <main className="mx-auto max-w-3xl px-6 py-16">
         <header className="mb-12">
-          <h1 className="text-5xl font-bold">Toki's Take</h1>
-          <p className="mt-3 text-slate-300">Events, experiments etc</p>
+          <h1 className="text-5xl font-bold text-center">Toki's Take</h1>
+          <p className="mt-3 text-slate-300 text-center font-semibold">
+            Events, experiments etc..
+          </p>
         </header>
-        <div className="group block rounded-2xl border border-white/10 bg-white/5 backdrop-blur-sm translate-y-1">
-          <p className="m-12 text-slate-300">
+        <div className="mb-12 rounded-2xl text-center border border-white/10 bg-white/5 p-8 backdrop-blur-sm">
+          <p className="text-slate-300">
             Created this as a space to put my Obsidian notes and make them
             easily shareable with anyone who was curious.
           </p>
         </div>
-        <section className="mt-3 mb-10">
-          <h2 className="mb-2 text-2xl">Events</h2>
+        <section className="mt-3 mb-4">
+          <h2 className="mb-2 text-2xl text-center">Events</h2>
           <div className="grid gap-4 sm:grid-cols-2">
             <Card
               to="/events/threejs-conf-2026"
@@ -35,14 +37,14 @@ function Home() {
             />
           </div>
         </section>
-        <section>
-          <h2 className="mb-2 text-2xl">Experiments</h2>
+        <section className="mb-4">
+          <h2 className="mb-2 text-2xl text-center">Experiments</h2>
           <div className="grid gap-4 sm:grid-cols-2">
             <Card
               to="/experiments"
               Icon={FlaskConicalIcon}
               title="Experimental Page"
-              description="This is an experiment"
+              description="This whole site is an experiment"
             />
           </div>
         </section>
