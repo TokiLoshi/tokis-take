@@ -1,8 +1,11 @@
 @import 'tailwindcss';
+@import '@fontsource-variable/fraunces';
+@import '@fontsource-variable/inter';
 @plugin '@tailwindcss/typography';
 
-* {
-  box-sizing: border-box;
+@theme {
+  --font-sans: 'Inter Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Fraunces Variable', ui-serif, Georgia, serif;
 }
 
 html,
@@ -12,11 +15,11 @@ body,
 }
 
 html {
-  scroll-behavior: smooth;
+  color-scheme: dark;
 }
 
 body {
-  margin: 0;
+  -webkit-font-smoothing: antialiased;
   background-color: #09090b;
   background-image:
     radial-gradient(circle 600px at 20% 0%, #c336e659, transparent),
@@ -61,4 +64,15 @@ article img[width] {
 
 .callout[open] summary::before {
   content: '▾ ';
+}
+
+::selection {
+  background: rgb(251 191 36 / 0.3);
+  color: white;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
 }

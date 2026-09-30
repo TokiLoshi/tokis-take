@@ -9,7 +9,9 @@ function Home() {
     <>
       <main className="mx-auto max-w-3xl px-6 py-16">
         <header className="mb-12">
-          <h1 className="text-5xl font-bold text-center">Toki's Take</h1>
+          <h1 className="text-5xl font-display font-bold text-center">
+            Toki's Take
+          </h1>
           <p className="mt-3 text-slate-300 text-center font-semibold">
             Events, experiments etc..
           </p>
@@ -20,8 +22,8 @@ function Home() {
             easily shareable with anyone who was curious.
           </p>
         </div>
-        <section className="mt-3 mb-4">
-          <h2 className="mb-2 text-2xl text-center">Events</h2>
+        <section className="mb-12">
+          <h2 className="mb-2 font-display text-2xl text-center">Events</h2>
           <div className="grid gap-4 sm:grid-cols-2">
             <Card
               to="/events/threejs-conf-2026"
@@ -37,8 +39,10 @@ function Home() {
             />
           </div>
         </section>
-        <section className="mb-4">
-          <h2 className="mb-2 text-2xl text-center">Experiments</h2>
+        <section className="mb-12">
+          <h2 className="mb-2 font-display text-2xl text-center">
+            Experiments
+          </h2>
           <div className="grid gap-4 sm:grid-cols-2">
             <Card
               to="/experiments"
