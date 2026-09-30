@@ -1,6 +1,11 @@
 import { hasSession } from '#/lib/auth'
 import { renderMarkdown } from '#/lib/markdown'
-import { createFileRoute, redirect } from '@tanstack/react-router'
+import {
+  createFileRoute,
+  Link,
+  notFound,
+  redirect,
+} from '@tanstack/react-router'
 import { createServerFn } from '@tanstack/react-start'
 import { readFile, readdir } from 'node:fs/promises'
 import path from 'node:path'
@@ -25,7 +30,10 @@ async function listFiles(
 }
 
 const getEvent = createServerFn({ method: 'GET' })
-  .validator((slug: string) => slug)
+  .validator((slug: string) => {
+    if (!/^[a-z0-9-]+$/.test(slug)) throw notFound()
+    return slug
+  })
   .handler(async ({ data: slug }) => {
     if (!hasSession()) {
       throw redirect({
@@ -54,8 +62,17 @@ function EventPage() {
   const { html, toc } = Route.useLoaderData()
   return (
     <>
-      <div className="mx-auto max-w-6xl px-6 py-12 lg:grid lg:grid-cols[240px_1fr] lg:gap-12">
-        <nav className="mb-10 lg:mb-0 lg:sticky lg:top-12 lg:max-h-[calc(100vh-6rem)] lg:overflow-y-auto">
+      <header className="mx-auto max-w-6xl px-6 pt-8">
+        <Link
+          to="/"
+          className="inline-flex items-center gap-2 text-sm text-slate-400 transition hover:text-amber-300"
+        >
+          <HomeIcon className="size-8" />
+          Toki's Take
+        </Link>
+      </header>
+      <div className="mx-auto max-w-6xl px-6 pb-12 pt-8 lg:grid lg:grid-cols-[240px_1fr] lg:gap-12">
+        <nav className="mb-10 lg:mb-0 lg:sticky lg:top-12 lg:max-h-[calc(100vh-6rem)] lg:overflow-y-auto rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur-sm">
           {toc.map((day) => (
             <div key={day.id} className="mb-6">
               <a
@@ -92,9 +109,7 @@ function EventPage() {
         </a>
       </div>
       <div className="p-8 justify-around">
-        <a href="/" className=" hover:text-slate-400">
-          <HomeIcon />
-        </a>
+        <a href="/" className=" hover:text-slate-400"></a>
       </div>
     </>
   )

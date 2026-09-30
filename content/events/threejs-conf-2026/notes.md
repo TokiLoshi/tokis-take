@@ -1,6 +1,5 @@
 ## Don't Stay Flat
 
-The whole motto of the event.
 ![[xyzAllOfUs.mp4]]
 
 ## 10 September
@@ -354,7 +353,7 @@ Pon Pon is a megalomaniac sheep who dreams of being a DJ.
 
 1. They start with the character -> movement/poses.
 2. Character -> environment -> details
-                                                                                                               ![[ponpon2.mp4]]
+                                                                                                                  ![[ponpon2.mp4]]
 
 It is sitcom inspired by the likes of Friends and How I Met Your Mother.
 
@@ -515,7 +514,7 @@ Rules for the sites they build:
 3. Wahou effect
 4. Sound and music
 5. 5. Multiplayer
-                                                                                                                                                                                                                              ![[damien12.jpg]]
+                                                                                                                                                                                                                                    ![[damien12.jpg]]
 
 [tearible UI (Really cool)](https://shouldseethis.com/website/tearable/)
 Confetti machine, why not!?
@@ -563,7 +562,7 @@ And then you get cool objects like this:
 4. Radiance fields ![[miris7.jpg]] this is like a painter working in brush strokes. Here, it's blobs splattered based on the angle you're looking at, and it's much more efficient.
 5. 1.3 GB is a lot of data, but the source asset was 40GB.
 6. Stream it instead - streaming spatial data ![[miris8.jpg]]
-                                                                                                               This shows how it renders low poly and the details fill in kinda like how you start buffering a show and the image gets sharper and sharper.
+                                                                                                                  This shows how it renders low poly and the details fill in kinda like how you start buffering a show and the image gets sharper and sharper.
 
 Spatial streaming:
 This is the most basic, interactive, even if it's not the prettiest, and it is 213,000x faster to get it interactive.
@@ -669,7 +668,7 @@ Postprocessing:
   - RGB distortion - what comes from not focusing on the colors, same as a camera
   - DOF
 - Lens Flare: - It's not aware of depth
-                                                                          Raycasting is too expensive ![[anderson22.jpg]]
+                                                                            Raycasting is too expensive ![[anderson22.jpg]]
 
 > [!photo]- Gallery
 > ![[anderson17.jpg]] ![[anderson18.jpg]]
@@ -729,15 +728,15 @@ To optimize you need to know where the time goes.
 - Visibility buffs?? (basically what Unreal Engine is using) - use id and get the data
 - Kinect for this
 - Media pipe vs kinect (media pipe will never render in relative). Kinnect or macro with neural engine like Apple neural engine, or optimized for GPU Recorded vision OS
-                                                                          ![[renault6.jpg]]
-                                                                          It took him a month. Shipped once.
-                                                                          ![[renault7.jpg]]
-                                                                          ![[renault8.jpg]]
-                                                                          ![[renault11.jpg]]
-                                                                          Three.js blocks - in trial beta
-                                                                          Action: try it and reach out. Especially enjoyed his take on how he's using AI in his workflows. This was really helpful.
-                                                                          ![[renault12.jpg]]
-                                                                          ![[renault13.jpg]]
+                                                                            ![[renault6.jpg]]
+                                                                            It took him a month. Shipped once.
+                                                                            ![[renault7.jpg]]
+                                                                            ![[renault8.jpg]]
+                                                                            ![[renault11.jpg]]
+                                                                            Three.js blocks - in trial beta
+                                                                            Action: try it and reach out. Especially enjoyed his take on how he's using AI in his workflows. This was really helpful.
+                                                                            ![[renault12.jpg]]
+                                                                            ![[renault13.jpg]]
 
 "An agent is only as good as its test"
 
@@ -837,7 +836,7 @@ Geogen to create the terrain, threw a point light in [Houdini](https://www.sidef
 4. Self-shadowing
 5. Global illumination
 6. Ray trace along axis and combine.
-                                                                                                               ![[edwan.jpg]]
+                                                                                                                  ![[edwan.jpg]]
 
 All about prebaking shadows and image sequencing the. baked shadows. How they were able to do this with shadows and display in I think houdini? Was epic and then they go the AI to figure it out.
 ![[edwan1.jpg]]
@@ -941,70 +940,70 @@ He's released a new TSL chapter and his portfolio which he drove around on stage
 7 Rules for a Memorable Web Experience
 
 1. Animate Everything
-                                                                                                               ![[bruno5.jpg]]
+                                                                                                                  ![[bruno5.jpg]]
 
 - Nomadic Tribe By makemepulse
-                                                                          ![[bruno7.jpg]]
+                                                                            ![[bruno7.jpg]]
 - In Pieces - by Bryan James (website that shows endangered species)
-                                                                          ![[bruno8.jpg]]
+                                                                            ![[bruno8.jpg]]
 - Anime.js V4 by Julian Garnier
-                                                                          ![[bruno9.jpg]]
+                                                                            ![[bruno9.jpg]]
 - Junni Is...
-                                                                          ![[bruno10.jpg]]
+                                                                            ![[bruno10.jpg]]
 - KPR By Resn ("A familiar world... set on a different path)
-                                                                          ![[bruno11.jpg]]
+                                                                            ![[bruno11.jpg]]
 - David Whyte Experience By Immersive Garden
 
 1. Make it smooth on any device
-                                                                                                               ![[bruno12.jpg]]
+                                                                                                                  ![[bruno12.jpg]]
 
 - Pioneer - Corn Revolutionized by Resn
-                                                                          ![[bruno13.jpg]]
+                                                                            ![[bruno13.jpg]]
 - CRU-CI-FORM By Jaume sanchez Elias
-                                                                          ![[bruno14.jpg]]
+                                                                            ![[bruno14.jpg]]
 - three.js hub
-                                                                          ![[bruno15.jpg]]
+                                                                            ![[bruno15.jpg]]
 
 ![[bruno16.mp4]] 3. One Unique Feature
 
 - Elastic Man By David Li
-                                                                          ![[bruno17.jpg]]
+                                                                            ![[bruno17.jpg]]
 - Basement Studio By basement studio
-                                                                          ![[bruno18.jpg]]
+                                                                            ![[bruno18.jpg]]
 - Paper planes By Active Theory
-                                                                          ![[bruno19.jpg]]
+                                                                            ![[bruno19.jpg]]
 - Cursor camp by Neal Agarwal
-                                                                          ![[bruno20.jpg]]
+                                                                            ![[bruno20.jpg]]
 - Entangled By Bjorn Staal
-                                                                          ![[bruno21.jpg]]
-                                                                          ![[bruno21.jpg]]
+                                                                            ![[bruno21.jpg]]
+                                                                            ![[bruno21.jpg]]
 - Pablo the Flamingo
-                                                                          ![[bruno23.mp4]]
+                                                                            ![[bruno23.mp4]]
 
 ![[bruno24.jpg]] 4. Iterate Fast
 
 - Hatom By Immersive Garden
-                                                                          ![[bruno25.jpg]]
-                                                                          ![[bruno25.mp4]]
+                                                                            ![[bruno25.jpg]]
+                                                                            ![[bruno25.mp4]]
 - Bruno's portfolio site
-                                                                          ![[bruno26.jpg]]
-                                                                          ![[bruno37.mp4]]
+                                                                            ![[bruno26.jpg]]
+                                                                            ![[bruno37.mp4]]
 
 ![[bruno27.jpg]] 5. Keep them entertained
 
 - Keep throwing shit at them
-                                                                          ![[bruno28.jpg]]
+                                                                            ![[bruno28.jpg]]
 - My Deejo by BETC & Nicolas Barradeau
 
 ![[bruno30.jpg]] 5. Treat Sound as a Feature not a bonus
 
 - Thankless Games
-                                                                          ![[bruno31.jpg]]
+                                                                            ![[bruno31.jpg]]
 - RESN By Resn
-                                                                          ![[bruno32.jpg]]
-                                                                          ![[bruno34.mp4]]
+                                                                            ![[bruno32.jpg]]
+                                                                            ![[bruno34.mp4]]
 - Revo Realms By Aleksander Gjoreski
-                                                                          ![[bruno36.jpg]]
+                                                                            ![[bruno36.jpg]]
 
 ![[bruno.mp4]]
 Codrops summary: "approached the same question (building experience people remember) from the other side, using his own work to share his rules for memorable experiences: animate everything, keep it smooth, find one original feature, iterate quickly, entertain people, use sound as a feature, and collect inspiration long before production begins."
