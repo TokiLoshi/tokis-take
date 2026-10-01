@@ -5,9 +5,8 @@ const COOKIE = 'tt_session'
 
 function token() {
   const secretToken = process.env.SESSION_SECRET
-  return createHmac('sha256', secretToken!)
-    .update('tokis-take:v1')
-    .digest('hex')
+  if (!secretToken) throw new Error('SESSION_SECRET is not set')
+  return createHmac('sha256', secretToken).update('tokis-take:v1').digest('hex')
 }
 
 function safeEqual(a: string, b: string) {
