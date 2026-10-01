@@ -10,6 +10,8 @@ import { createServerFn } from '@tanstack/react-start'
 import { readFile, readdir } from 'node:fs/promises'
 import path from 'node:path'
 import { ArrowBigDownDash, ArrowBigUpDash, HomeIcon } from 'lucide-react'
+import { useRef, useState } from 'react'
+import type { MouseEvent } from 'react'
 
 async function listFiles(
   dir: string,
@@ -60,6 +62,18 @@ export const Route = createFileRoute('/events/$slug')({
 
 function EventPage() {
   const { html, toc } = Route.useLoaderData()
+  const dialogRef = useRef<HTMLDialogElement>(null)
+  const [lightbox, setLightbox] = useState<{ src: string; alt: string } | null>(
+    null,
+  )
+
+  const handleArticleClick = (e: MouseEvent) => {
+    if (e.target instanceof HTMLImageElement) {
+      setLightbox({ src: e.target.src, alt: e.target.alt })
+      dialogRef.current?.showModal()
+    }
+  }
+
   const floatingButton =
     'fixed bottom-6 rounded-full border border-white/10 bg-white/5 p-3 backdrop-blur-sm transition hover:border-amber-400/40 hover:text-amber-300'
   return (
@@ -100,9 +114,25 @@ function EventPage() {
         </nav>
 
         <article
-          className="prose prose-invert prose-p:text-sm max-w-none prose-headings:font-display prose-a:text-amber-300/80 prose-a:hover:text-amber-400 prose-img:max-h-112 prose-img:rounded-xl"
+          className="prose prose-invert prose-img:cursor-zoom-in prose-p:text-sm max-w-none prose-headings:font-display prose-a:text-amber-300/80 prose-a:hover:text-amber-400 prose-img:max-h-112 prose-img:rounded-xl"
           dangerouslySetInnerHTML={{ __html: html }}
+          onClick={handleArticleClick}
         />
+        <dialog
+          ref={dialogRef}
+          onClick={() => dialogRef.current?.close()}
+          className="m-auto overflow-visible bg-transparent p-0 outline-none backdrop:bg-black/80 backdrop:backdrop-blur-sm motion-safe:open:animate-lightbox"
+        >
+          {lightbox && (
+            <div className="rounded-2xl border border-amber-400/30 bg-white/5 p-3 shadow-[0_0_60px_-15px_rgba(251,191,36,0.5)] backdrop-blur-md">
+              <img
+                src={lightbox.src}
+                alt={lightbox.alt}
+                className="max-h-[85vh] max-w-[85vw] rounded-xl"
+              />
+            </div>
+          )}
+        </dialog>
       </div>
       <a
         href="#top"

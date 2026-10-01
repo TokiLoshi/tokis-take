@@ -99,3 +99,10 @@ article video {
     filter: blur(4px);
   }
 }
+
+@keyframes lightbox {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+}
