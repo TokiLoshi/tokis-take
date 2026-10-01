@@ -9,7 +9,7 @@ import {
 import { createServerFn } from '@tanstack/react-start'
 import { readFile, readdir } from 'node:fs/promises'
 import path from 'node:path'
-import { HomeIcon } from 'lucide-react'
+import { ArrowBigDownDash, ArrowBigUpDash, HomeIcon } from 'lucide-react'
 
 async function listFiles(
   dir: string,
@@ -60,6 +60,8 @@ export const Route = createFileRoute('/events/$slug')({
 
 function EventPage() {
   const { html, toc } = Route.useLoaderData()
+  const floatingButton =
+    'fixed bottom-6 rounded-full border border-white/10 bg-white/5 p-3 backdrop-blur-sm transition hover:border-amber-400/40 hover:text-amber-300'
   return (
     <>
       <header className="mx-auto max-w-6xl px-6 pt-8">
@@ -72,21 +74,21 @@ function EventPage() {
         </Link>
       </header>
       <div className="mx-auto max-w-6xl px-6 pb-12 pt-8 lg:grid lg:grid-cols-[240px_1fr] lg:gap-12">
-        <nav className="mb-10 lg:mb-0 lg:sticky lg:top-12 lg:max-h-[calc(100vh-6rem)] lg:overflow-y-auto rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur-sm">
+        <nav className="mb-10 lg:mb-0 lg:sticky lg:top-12 lg:max-h-[calc(100vh-6rem)] lg:overflow-y-auto rounded-2xl border border-white/10 bg-white/5 p-4 backdrop-blur-sm text-center">
           {toc.map((day) => (
-            <div key={day.id} className="mb-6">
+            <div key={day.id} className="mb-6 ">
               <a
                 href={`#${day.id}`}
-                className="block text-sm font-semibold uppercase tracking-wide text-slate-200 hover:text-white"
+                className="block text-xs font-semibold uppercase tracking-widest text-amber-400/80"
               >
                 {day.title}
               </a>
-              <ul className="mt-2 mb-2 space-y-1 border border-slate-300 rounded">
+              <ul className="mt-2 mb-2 p-2 space-y-1">
                 {day.talks.map((t) => (
                   <li key={t.id} className="mb-1 mt-1">
                     <a
                       href={`#${t.id}`}
-                      className="block pl-3 text-sm text-slate-300 hover:text-white"
+                      className="block px-3 py-1 text-sm text-slate-400 transition hover:bg-white/5 hover:text-amber-300"
                     >
                       {t.title}
                     </a>
@@ -98,19 +100,25 @@ function EventPage() {
         </nav>
 
         <article
-          className="prose prose-invert prose-lg max-w-none"
+          className="prose prose-invert prose-p:text-sm max-w-none prose-headings:font-display prose-a:text-amber-300/80 prose-a:hover:text-amber-400 prose-img:max-h-112 prose-img:rounded-xl"
           dangerouslySetInnerHTML={{ __html: html }}
         />
-        <a
-          href="#top"
-          className="fixed bottom-6 right-6 rounded-full bg-slate-900/80 px-3 py-2 text-sm backdrop-blur hover:bg-slate-700"
-        >
-          ↑ Back to the top
-        </a>
       </div>
-      <div className="p-8 justify-around">
-        <a href="/" className=" hover:text-slate-400"></a>
-      </div>
+      <a
+        href="#top"
+        className={`${floatingButton} right-6`}
+        aria-label="Back to top"
+      >
+        <ArrowBigUpDash />
+      </a>
+      <a
+        href="#bottom"
+        aria-label="Back to bottom"
+        className={`${floatingButton} right-20`}
+      >
+        <ArrowBigDownDash />
+      </a>
+      <div id="bottom"></div>
     </>
   )
 }
