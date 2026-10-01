@@ -12,66 +12,65 @@
 [insta](https://www.instagram.com/makio64/)
 [GitHub](https://github.com/Makio64)
 
-Freelance creative developer building immersive web experiences with three.js. Gobelins Paris alumni. Also rock climbs.
+Freelance creative developer building immersive web experiences with three.js. Gobelins Paris alumni.
 
 He set himself the following goal, according to his [LinkedIn Post](https://www.linkedin.com/posts/davidronai_last-week-an-idea-came-to-life-the-1st-activity-7506757106520301568-nI_g/)
-"bring the global Three.js community together under one roof. I wanted to meet the faces behind the projects, spotlight what everyone is building, and honor 16 years of an extraordinary community.
+"bring the global Three.js community together under one roof. I wanted to meet the faces behind the projects, spotlight what everyone is building, and honor 16 years of an extraordinary community."
 
-On stage: la crème de la crème, curated with an intentional focus on strong female representation to shape the future of our industry.  
+On stage: "la crème de la crème", curated with an intentional focus on strong female representation to shape the future of our industry.  
 "Thanks to every speaker who took the mic, not for the ego, but to share knowledge, give back, and elevate the room."
 
 ![[davidIntro.mp4]]
 
-David [put it all together the first edition together](https://tympanus.net/codrops/2026/09/10/inside-the-first-three-js-conference-in-paris/#:~:text=thank%20you%20to-,David%20Ronai,-for%20bringing%20this). The story goes that he approached MrDoob about putting the conference together and they ironed out the details in an Onsen in Japan.
+David [put the first edition together](https://tympanus.net/codrops/2026/09/10/inside-the-first-three-js-conference-in-paris/#:~:text=thank%20you%20to-,David%20Ronai,-for%20bringing%20this). The story goes that he approached MrDoob about putting the conference together and they ironed out the details in an Onsen in Japan.
 
 ![[david2.mp4]]
 
 > [!question]- The outfit...
-> What was he wearing? The blue bathrobe/yukata outfid on stage. There are no write-up mentions but there must be a story here. Best guess is a callback to the onsen story.
+> The blue bathrobe/yukata outfit on stage must be a story. Best guess is a callback to the onsen story.
 
-Really kind and sweet host; hope he does it again. The producer was [Misaki Kitano](https://www.linkedin.com/in/misaki-kitano-99184210b/) She works as a consultant for Sustainability and zero-waste retail systems. Didn't speak a lot but was a powerhouse running all of the things behind the scenes. First saw her when she got flowers at the end and came on stage after David thanked himself, which she said she didn't think he was going to do. It was lovely.
+Really kind and sweet host; hope he does it again. The producer was [Misaki Kitano](https://www.linkedin.com/in/misaki-kitano-99184210b/) She works as a consultant for Sustainability and zero-waste retail systems. She was a powerhouse running all of the things behind the scenes. First saw her when she got flowers at the end and came on stage after David thanked himself, which she said she didn't think he was going to do. It was lovely.
 
 ![[davidEnd.mp4]]
 **Work & talks**
 
 - Talk on tech art with William Mapan on [YouTube](https://www.youtube.com/watch?v=Z-Zr14IJuoo).
 - This is his portfolio on creative coding, consulting to productions [Makio Inc](https://www.makio.io/).
-- The Golden Slide for MacD's was featured in various places; seen that on a bunch of the promos and Twitter.
-- The lion is beautiful; How did he do that?
-- Open Source contributions include: [vite-plugin-tsl-operator](https://github.com/makio64/vite-plugin-tsl-operator) and [makio-meshline](https://github.com/Makio64/makio-meshline) amongst others. Also enjoys rock climbing.
+- The Golden Slide for McDonald's was featured in various places; seen that on a bunch of the promos and Twitter.
+- Open Source contributions include: [vite-plugin-tsl-operator](https://github.com/makio64/vite-plugin-tsl-operator) and [makio-meshline](https://github.com/Makio64/makio-meshline) amongst others.
 
-### Vincente Lucendo - From 3D to Feeling
+### Vicente Lucendo - From 3D to Feeling
 
 #### Making Messenger (1 of the 2x Site of the Year)
 
-Vincente is an independent technologist and artist in the Netherlands. He's won Website of the Year twice.
+Vicente is an independent technologist and artist in the Netherlands. He's won Website of the Year twice.
 [LinkedIn](https://www.linkedin.com/in/vicente-lucendo-16702ab2/)
 [Website](https://vlucendo.com/)
 [X](https://x.com/vlucendo)
 
-![[vincente1.jpg]]
+![[vicente1.jpg]]
 Has been studying [Yusuke Murata](https://en.wikipedia.org/wiki/Yusuke_Murata) a manga artist and animator. He's been experimenting with physics libraries and really likes Jolt. He walks through the making of [Messenger](https://messenger.abeto.co/) and how it came together. He formed Abeto which the story goes is named after the pine Christmas tree that gets left out in December once the festivities are done. It's meant to capture the little things and some of the sadness in life. His other amazing work featured the Igloo and the "Summer Afternoon" game, which reminded him of being a kid in summer and wandering around endlessly and aimlessly.
-![[vincente2.jpg]]
+![[vicente2.jpg]]
 
 "The best compass is the emotion you're trying to evoke, letting that guide every technical and creative decision along the way." Also mentions the benefit of fresh eyes.
-![[vincente3.jpg]]
+![[vicente3.jpg]]
 
 Takes us into the process of making Messenger as well as the many side quests and technical details.
-![[vincente4.jpg]]
-![[vincente5.jpg]]
-He may have been the first to say it, but this was repeated many times: sound is really important. Here is how he designs sound in his experiences. It distinguishes how an experience should be felt. ![[vincente6.jpg]]
-![[vincente7.jpg]]
+![[vicente4.jpg]]
+![[vicente5.jpg]]
+He may have been the first to say it, but this was repeated many times: sound is really important. Here is how he designs sound in his experiences. It distinguishes how an experience should be felt. ![[vicente6.jpg]]
+![[vicente7.jpg]]
 
-### Kim Boutin - New way of seeing
+### Kim Boutin - New ways of seeing
 
-#### Founder of loadmore.re & New way of Seeing
+#### Founder of loadmo.re & New ways of Seeing
 
 [Website](https://loadmo.re/)
 [LinkedIn](https://www.linkedin.com/in/kimboutin/)
 The badass lady in the Kenzo outfit who handled technical difficulties like a champ. Her personal story was a cool journey through how she got into these spaces, and she makes some really, really pretty sites.
 ![[Kim1.jpg]]
 
-[New way of Seeing](https://newwaysofseeing.com/) Lots of fashion stuff that went over my head, but I liked the focus on reducing friction. Seems to be friends with David/Makio; maybe that's why he was so chilled about the hiccup, as was she.
+[New way of Seeing](https://newwaysofseeing.com/) Lots of fashion stuff that went over my head, but I liked the focus on reducing friction.
 
 ![[kim3.jpg]]
 
@@ -91,7 +90,7 @@ He's experiencing building with AI very differently but still thinks the fundame
 
 He walks through Zelda, his personal favourite and how he made it pre AI and then used AI to take it onto WebGPU with TSL.
 
-Some of the errors with Claude were funny, and some of the sass Claude would give him. (Screenshots?)
+Some of the errors with Claude were funny, and some of the sass Claude would give him.
 ![[robin2.jpg]]
 
 He rebuilt it in three.js and then again for WebGPU with TSL and AI. There was nostalgia, shaders, LOD systems (this was really interesting to watch come together).
@@ -102,15 +101,15 @@ He rebuilt it in three.js and then again for WebGPU with TSL and AI. There was n
 
 #### Animated by Florian Zumbrunn
 
-With [MrDoob](https://mrdoob.com/), [Renaud Rohlinger](https://renaudrohlinger.com/), [Nicolas Barrateau](https://x.com/nicoptere), and narrated by [Florian Zumbrunn](https://www.linkedin.com/in/florianzumbrunn/)
+With [MrDoob](https://mrdoob.com/), [Renaud Rohlinger](https://renaudrohlinger.com/), [Nicolas Barradeau](https://x.com/nicoptere), and narrated by [Florian Zumbrunn](https://www.linkedin.com/in/florianzumbrunn/)
 
 They had three different opinions overall on how they want to use things, what this means for juniors moving forward, and what they think the future will look like.
 
-Nicolas: says he got late into using AI at Google as they were only allowed to use Gemini tools and that was made available to them towards the end of last year. He's concerned about the juniors because he doesn't see them being curious about the code or the processes and saw this in a WebGL workshop. He was shocked because they'd signed up for the workshop but wanted to outsource it to the AI, and thinks the fundamentals still matter. These days he uses AI for "whatever I don't give a fuck about".
+Nicolas: says he got late into using AI at Google as they were only allowed to use Gemini tools and that was made available to them towards the end of last year. He's concerned about the juniors because he doesn't see them being curious about the code or the processes and saw this in a WebGL workshop. He was shocked because they'd signed up for the workshop but wanted to outsource it to the AI, and thinks the fundamentals still matter.
 
-Reanaud: cited massive productivity gains and talks about how he'll use AI to improve performance and keep asking it, "why did you do it that way," and try to learn new approaches that might be different to the way he could use it. He now uses AI as a starting block, then goes deeper and deeper into the code. He's optimistic that people will remain curious and likened it to how he already started from the top with HTML before digging down closer to the metal (this was made a couple of times); not sure if it was this panel in particular.
+Renaud: cited massive productivity gains and talks about how he'll use AI to improve performance and keep asking it, "why did you do it that way," and try to learn new approaches that might be different to the way he could use it. He now uses AI as a starting block, then goes deeper and deeper into the code. He's optimistic that people will remain curious and likened it to how he already started from the top with HTML before digging down closer to the metal (this was made a couple of times);
 
-Mr Doob: hasn't used an IDE in a long time, but he says he never liked programming anyway, and the code was never the problem he was trying to solve. Hopes people will be curious too. His part seemed to imply this will be the new way we do things moving forward.
+MrDoob: hasn't used an IDE in a long time, but he says he never liked programming anyway, and the code was never the problem he was trying to solve. Hopes people will be curious too. His part seemed to imply this will be the new way we do things moving forward.
 
 According to [Codrops](https://tympanus.net/codrops/2026/09/10/inside-the-first-three-js-conference-in-paris/) summary:
 "The struggles that once took weeks to overcome are what build the technical understanding that allows you to push these new tools further. And if AI makes it feel like you can build anything, the new question becomes: when do you stop?"
@@ -123,15 +122,15 @@ According to [Codrops](https://tympanus.net/codrops/2026/09/10/inside-the-first-
 ![[cassie1.jpg]]
 She alluded to an unnamed popular animation library that had previously captured the user base because of this. It's still early but she invites attendees to use it and to talk to her. API seems easy to use.
 
-```
+```js
 const instances = ThreePlugin.getInstances(mesh)
 
 gsap.to(instances, {
-y: i => Math.sin(i * 0.02) * 2,
-rotationY: 180,
-scale: i => 0.6 + (i % 5) * 0.1,
-stagger: { each: 0.001, from: "center"
-}})
+  y: (i) => Math.sin(i * 0.02) * 2,
+  rotationY: 180,
+  scale: (i) => 0.6 + (i % 5) * 0.1,
+  stagger: { each: 0.001, from: 'center' },
+})
 ```
 
 ![[cassie2.jpg]]
@@ -146,18 +145,18 @@ She notes the big issue they've been having with AI is less access to the commun
 
 [Daria](https://x.com/darianevezhyna) asks why the web still feels flat when tech can do so much. She highlights the configurator tools she has built, such as a cupboard builder where you can change the number of drawers and the material on the door, and the shadows and reflections change accordingly so you get a more immersive experience and a feel for what it could be like in your space. The idea is that the decision to purchase is made long before the website, and by trying to improve interaction, atmosphere, and storytelling, we can transform the way users experience products online.
 
-### Céia Lopez - Just Do it!
+### Célia Lopez - Just Do it!
 
 #### Lessons Learned
 
 [website](https://celialopez.fr/)
-[email](hello@celialopez.fr)
+[email](mailto:hello@celialopez.fr)
 [X](https://x.com/CliaLpz)
 [LinkedIn](https://www.linkedin.com/in/clia-lopez-745aaa72/)
 [Insta](https://www.instagram.com/clia.lpz/)
 [YouTube](https://www.youtube.com/@celialopez)
 
-Celia is a 3D designer working with WebGL and OFF+Brand. She's been leading into AI and exploring non-linear texture optimization, and transferring textures from AI-generated models with messy topology onto clean, production-ready meshes.
+Célia is a 3D designer working with WebGL and OFF+Brand. She's been leaning into AI and exploring non-linear texture optimization, and transferring textures from AI-generated models with messy topology onto clean, production-ready meshes.
 
 [Extract from Paris Design Meetup @Jitter - Design Workflows](https://youtu.be/DLFBliJr5L8)
 Her journey of not feeling good enough while working with David, and how she stayed consistent to get good: saying yes, asking for things, and trying new things. Consistency is key. Share during your learning.
@@ -173,17 +172,17 @@ Key takeaways:
 ### Thomas and Natalia - Google HTML in Canvas
 
 [Thomas Nattestad](https://www.linkedin.com/in/thomasnattestad/)
-[Natalia Markoborodova]([Natalia Markoborodova](https://www.linkedin.com/in/natalia-markoborodova/))
+[Natalia Markoborodova](https://www.linkedin.com/in/natalia-markoborodova/)
 
-Are Googlers working on HTML-in-Canvas. This has been a long time coming.
+This has been a long time coming.
 
 ![[google1.jpg]]
 
-Thomas discussed the complexity of web standards and how that has complicated the delivery of the html in canvas. One of the attendees mentioned it should have been released years ago but it was stalled, and why has it taken so long, his response was web standards. Challenges around preserving pricacy, security and interoperability were mentioned. However response for Firefox is out and Apple is a big "Maybe they're making it happen, we've gotten an (iod?)" but they can't confirm. So most browsers are fine, except for firefox and foro now Safari. They mention handling CORS however a savy user can also decode whatever so privacy isn't quite solved anymore.
+Thomas discussed the complexity of web standards and how that has complicated the delivery of the html in canvas. One of the attendees mentioned it should have been released years ago but it was stalled, and why has it taken so long, his response was web standards. Challenges around preserving privacy, security and interoperability were mentioned. However support for browsers is not universal. Chrome is leading the way in the origin trial. Firefox has concerns (mainly around fingerprinting and compatibility), and Safari hasn't taken a position yet, though there's an open request for one. They mention handling CORS however a savvy user can also decode whatever so privacy isn't quite solved anymore.
 
 ![[google2.jpg]]
 
-The demo with the translate in forms was really nice for 3D. The conference site was written with HTML in Canvas. However this api is very much in origin still. They welcomed people to chat to them about it and to ask about origin APIs and what that means.
+The demo with the translate in forms was really nice for 3D. The conference site was written with HTML in Canvas. However this api is very much in the origin phase.
 
 ![[google3.jpg]]
 
@@ -197,14 +196,14 @@ Has support through THREE.HTMLTexture, opens up "playful hybrids" bringing the s
 [website](https://lovis.io/)
 [X](https://x.com/OdinLovis)
 [LinkedIn](https://www.linkedin.com/in/lovis-odin-7a751360/)
-config.ui
+
 Working at Fal.ai as a creative engineer (gave himself the title) after several years in film (they're based in SF)
-Fal is an image-to-video generation API with Claude. You can customize the AI to intensify the images.
+Fal is a generative media platform. You can customize the AI to intensify the images.
 ![[odin1.jpg]]
 ![[odin2.jpg]]
 ![[odin3.jpg]]
 
-Blender MCP - give it the first frame, then give it a video reference and let the model infer. Sometimes you might need to provide multiple frames in increase the potential for more control. Auto rigging. Then use LORA - give small nets to the model to train and personalize.
+Blender MCP - give it the first frame, then give it a video reference and let the model infer. Sometimes you might need to provide multiple frames to increase the potential for more control. Auto rigging. Then use LORA - give small nets to the model to train and personalize.
 ![[odin5.jpg]]
 
 Learning from examples:
@@ -226,7 +225,7 @@ Uses [LoRA](<https://en.wikipedia.org/wiki/LoRA_(machine_learning)>) for video. 
 ![[odin14.jpg]]
 ![[odin15.jpg]]
 
-This is becoming a real part of production work flows from blender scenes, image-to-video-pipelines, to custom LoRAs, Gaussian splats and real-time generation.
+This is becoming a real part of production workflows from blender scenes, image-to-video-pipelines, to custom LoRAs, Gaussian splats and real-time generation.
 ![[odin16.jpg]]
 Qwen Multi Angle
 ![[odin18.jpg]]
@@ -264,25 +263,25 @@ Some "illegal" things / red flags:
 
 #### 10 - 2 minutes each
 
-Didn't get all of these, there were a lot. Highlighst included:
+Didn't get all of these, there were a lot. Highlights included:
 
 1. Unbound - work exploring unbound loop platform ![[unbound1.jpg]] ![[unbound2.jpg]]
-2. Project name? Cédric Pinson, Sketchfab co-founder, showed a 3D tool for lighting, tweaking, and creating model variations.
-3. Thrixel - an agentic approach to creative 3D worlds ![[julian.jpg]]
-4. [Sprint Plant](https://variable.io/expo-2025-spirit-plant/) by [Damien Seguin](https://x.com/dmnsgn) let visitors grow plants on touch screens and take them with home by means of a QR code
-5. Julian Garnier previewed Anime.js being released. ![[julian1.jpg]] with editable keyframes, springs and real-time animation. [animejs](animejs.com) and @JulianGarnier on X.
-6. Nathan from Immersive Garden shared work on Intangible and building 3D scenes. Harry Potter mentioned?
+2. Cédric Pinson, Sketchfab co-founder, showed a 3D tool for lighting, tweaking, and creating model variations.
+3. Thrixel - an agentic approach to creative 3D worlds
+4. [Spirit Plant](https://variable.io/expo-2025-spirit-plant/) by [Damien Seguin](https://x.com/dmnsgn) let visitors grow plants on touch screens and take them home by means of a QR code
+5. Julian Garnier previewed Anime.js being released. ![[julian1.jpg]] with editable keyframes, springs and real-time animation. [animejs](https://animejs.com) and @JulianGarnier on X.
+6. Nathan from Immersive Garden shared work on Intangible and building 3D scenes.
 7. 3D Game for fun
 8. After Effects-inspired tool for real-time 3D
-9. Victor Works (his work and thoughts on protecting community in the age of AI). This was the one that went on long despite David's best efforts to shoo him on stage, and he ended up sharing his sunnies with David, and the tension in the atmosphere resolved.
-10. Dario Sanchez - making physically convincing lighting faster. "Rendering isn't always the bottleneck. Perception in. Technical accuracy alone doesn't make something beautiful. Taste does".
+9. Victor Works (his work and thoughts on protecting community in the age of AI).
+10. Dario Sanchez - making physically convincing lighting faster. "Rendering isn't always the bottleneck. Perception is. Technical accuracy alone doesn't make something beautiful. Taste does".
 
 ### Julie Marting & Romain Briaux - Hervé Studio
 
 [X](https://x.com/JulieMarting)
 [LinkedIn](https://www.linkedin.com/in/juliemarting/)
 [Instagram](https://www.instagram.com/juli.emarting/)
-[Dribble](https://dribbble.com/juliemarting)
+[Dribbble](https://dribbble.com/juliemarting)
 
 The awesome duo behind all the stickers, interactive speaker badges, badges, layout, and the whole shebang. They're from the beautiful Hervé Studio (HV after the founders, which is pronounced Hervé in French).
 ![[herve.jpg]]
@@ -295,18 +294,18 @@ The whole idea behind why they chose the bobbles, how they tweaked them, and how
 ![[herve2.jpg]]
 "Making mistakes and discovering new ideas or techniques as a result of those mistakes is almost part of our weekly routine as designers. It encourages us to constantly learn and try new things we hadn't thought of before"
 
-[Romain Briaux](https://www.linkedin.com/in/briauxromain/) spent 7 months working on the conference with [Julie Martin](https://www.linkedin.com/in/juliemarting/). This included art direction, social presence, scenography, merch, and physical experience.
+[Romain Briaux](https://www.linkedin.com/in/briauxromain/) spent 7 months working on the conference with [Julie Marting](https://www.linkedin.com/in/juliemarting/). This included art direction, social presence, scenography, merch, and physical experience.
 
 ![[herve3.jpg]]
 
-They started to working together several years prior with a project for Zenly (Bruno mentioned). For the conference, they didn't want another technical showcase, but instead wanted to center the community, and ended up making playful characters and visual language with easter eggs throughout, including stickers, key chains, and the speaker badges, which were little controllers that led Romain down the side quest of learning a little C++. The speaker badges could interact with each other, and it was a really cool development. The rest of us got cute stickers and bottle openers. Not to mention, he took the badges on holiday and got his whole family involved in putting them together, even his dad (free labor).
+They started working together several years prior with a project for Zenly (Bruno mentioned). For the conference, they didn't want another technical showcase, but instead wanted to center the community, and ended up making playful characters and visual language with easter eggs throughout, including stickers, key chains, and the speaker badges, which were little controllers that led Romain down the side quest of learning a little C++. The speaker badges could interact with each other, and it was a really cool development. The rest of us got cute stickers and bottle openers. Not to mention, he took the badges on holiday and got his whole family involved in putting them together, even his dad (free labor).
 ![[herve7.jpg]]
 
-The Maison de la Chimie was also part of the creative process and physical experience. The venue is next door to the National Assembly. It is an 18th-century hotel particulier with 1930s Art Deco interiors and a walled garden. It was built for the community by that community. Chemists' societies had wanted a shared house since 1912. The 1927 Berthelot centenery launched a public subscription, and the building opened in 1934 as a place where researchers from every country and society could meet, share documentation and hold congress. This made it an apt venue for the first three.jss conference (especially considering as the library is 16 years old).
+The Maison de la Chimie was also part of the creative process and physical experience. The venue is next door to the National Assembly. It is an 18th-century hotel particulier with 1930s Art Deco interiors and a walled garden. It was built for the community by that community. Chemists' societies had wanted a shared house since 1912. The 1927 Berthelot centenary launched a public subscription, and the building opened in 1934 as a place where researchers from every country and society could meet, share documentation and hold congress. This made it an apt venue for the first three.js conference (especially considering as the library is 16 years old).
 
 ![[herve4.mp4]]
 
-The speaker badges were awesome, there are some cool videos to link from twitter. Still want to know how he did them.
+The speaker badges were awesome, there are some cool videos to link from twitter.
 ![[herve9.jpg]]
 
 Speakers also used it to "make friends". Allegedly, Bruno's wouldn't be friends with Cassie's.
@@ -321,14 +320,14 @@ He's been exploring bringing AI in as a part of the creative process, and that m
 
 According to Codrops: "One of his most eye-opening moments was seeing an eight-year-old build a 3D game with AI" and how time-consuming projects could now become a Saturday morning experiment.
 
-Views himself as more of a problem solver than a programmer so for him the shift makes sense. Compares coding to anti-aliasing in the 90s, and hand painting. There's no reason to miss doing it manually. He's been messing with experiments in lighting, shadows, WebXR and TSL to rebuild games like Quake, Descent and doom in Three.js.
+Views himself as more of a problem solver than a programmer so for him the shift makes sense. Compares coding to anti-aliasing in the 90s, and hand painting. There's no reason to miss doing it manually. He's been messing with experiments in lighting, shadows, WebXR and TSL to rebuild games like Quake, Descent and Doom in Three.js.
 ![[mrdoob5.jpg]]
 
 He's hopeful people will stay curious, and that these tools still require curiosity and understanding but argues that the level at which we work is changing and we're moving one abstraction higher.
 
 ### Toast - Networking
 
-Champagne and chats - met [Diego](https://x.com/maca_graphics) and Mark from Shopify and discussed what they've been working on and what they're excited for. Heard about Damien's talk which was being moved to the next day. Daniel who was supposed to talk couldn't join because he'd just had a baby. He'll be a big part of the Black Friday Cyber Monday dashboard at Shopify and worth looking out for his content and updates as they always do an amazing job breaking it down from the design and technical challenges perspective.
+Champagne and chats - met [Diego](https://x.com/maca_graphics) and Mark from Shopify and discussed what they've been working on and what they're excited for. Heard about Damien's talk which was being moved to the next day. The team always an amazing job breaking down the Black Friday Cyber Monday sites from the design and technical challenges perspective.
 
 ## 11 September
 
@@ -353,7 +352,7 @@ Pon Pon is a megalomaniac sheep who dreams of being a DJ.
 
 1. They start with the character -> movement/poses.
 2. Character -> environment -> details
-                                                                                                                     ![[ponpon2.mp4]]
+                                                                                                                                                                                                                                                                                                   ![[ponpon2.mp4]]
 
 It is sitcom inspired by the likes of Friends and How I Met Your Mother.
 
@@ -513,8 +512,8 @@ Rules for the sites they build:
 2. Mix things
 3. Wahou effect
 4. Sound and music
-5. 5. Multiplayer
-                                                                                                                                                                                                                                          ![[damien12.jpg]]
+5. Multiplayer
+                                                                                                                                                                                                                                                                                                                                                                                                                        ![[damien12.jpg]]
 
 [tearible UI (Really cool)](https://shouldseethis.com/website/tearable/)
 Confetti machine, why not!?
@@ -562,7 +561,7 @@ And then you get cool objects like this:
 4. Radiance fields ![[miris7.jpg]] this is like a painter working in brush strokes. Here, it's blobs splattered based on the angle you're looking at, and it's much more efficient.
 5. 1.3 GB is a lot of data, but the source asset was 40GB.
 6. Stream it instead - streaming spatial data ![[miris8.jpg]]
-                                                                                                                     This shows how it renders low poly and the details fill in kinda like how you start buffering a show and the image gets sharper and sharper.
+                                                                                                                                                                                                                                                                                                   This shows how it renders low poly and the details fill in kinda like how you start buffering a show and the image gets sharper and sharper.
 
 Spatial streaming:
 This is the most basic, interactive, even if it's not the prettiest, and it is 213,000x faster to get it interactive.
@@ -668,7 +667,7 @@ Postprocessing:
   - RGB distortion - what comes from not focusing on the colors, same as a camera
   - DOF
 - Lens Flare: - It's not aware of depth
-                                                                              Raycasting is too expensive ![[anderson22.jpg]]
+                                                                                                                                                                                                  Raycasting is too expensive ![[anderson22.jpg]]
 
 > [!photo]- Gallery
 > ![[anderson17.jpg]] ![[anderson18.jpg]]
@@ -728,19 +727,19 @@ To optimize you need to know where the time goes.
 - Visibility buffs?? (basically what Unreal Engine is using) - use id and get the data
 - Kinect for this
 - Media pipe vs kinect (media pipe will never render in relative). Kinnect or macro with neural engine like Apple neural engine, or optimized for GPU Recorded vision OS
-                                                                              ![[renault6.jpg]]
-                                                                              It took him a month. Shipped once.
-                                                                              ![[renault7.jpg]]
-                                                                              ![[renault8.jpg]]
-                                                                              ![[renault11.jpg]]
-                                                                              Three.js blocks - in trial beta
-                                                                              Action: try it and reach out. Especially enjoyed his take on how he's using AI in his workflows. This was really helpful.
-                                                                              ![[renault12.jpg]]
-                                                                              ![[renault13.jpg]]
+                                                                                                                                                                                                  ![[renault6.jpg]]
+                                                                                                                                                                                                  It took him a month. Shipped once.
+                                                                                                                                                                                                  ![[renault7.jpg]]
+                                                                                                                                                                                                  ![[renault8.jpg]]
+                                                                                                                                                                                                  ![[renault11.jpg]]
+                                                                                                                                                                                                  Three.js blocks - in trial beta
+                                                                                                                                                                                                  Action: try it and reach out. Especially enjoyed his take on how he's using AI in his workflows. This was really helpful.
+                                                                                                                                                                                                  ![[renault12.jpg]]
+                                                                                                                                                                                                  ![[renault13.jpg]]
 
 "An agent is only as good as its test"
 
-The whole talk is available on Twitter - need to rewatch.
+The whole talk is available on X.
 ![[renault14.jpg]]
 ![[renault16.jpg]]
 ![[renault17.jpg]]
@@ -836,7 +835,7 @@ Geogen to create the terrain, threw a point light in [Houdini](https://www.sidef
 4. Self-shadowing
 5. Global illumination
 6. Ray trace along axis and combine.
-                                                                                                                     ![[edwan.jpg]]
+                                                                                                                                                                                                                                                                                                   ![[edwan.jpg]]
 
 All about prebaking shadows and image sequencing the. baked shadows. How they were able to do this with shadows and display in I think houdini? Was epic and then they go the AI to figure it out.
 ![[edwan1.jpg]]
@@ -896,7 +895,7 @@ Back and forth between them, how they all came from larger companies and are now
 1. [Planners 3D](https://planners3d.com/) - beta no-code platform for publishing real-time 3D experience.
 2. Laura explored connection between physical and digital worlds with playful set up using physical objects to control visuals on screen - don't remember this one, but think it was the lady from London who was very nervous and playing around with the giant plastic easter eggs. Two talks rolled into one? Think there were supposed to be 10 lightning talks but Codrops only lists 8. These were less polished than day 1
 3. [Michael Bloom](https://www.linkedin.com/company/dezea/) introduced [Blackbird awards](https://blackbirdawards.com/) - seems to be a different way to give web awards in an age of copying. Exactly how wasn't clear.
-4. [Nicolas Barrateau](https://x.com/nicoptere) comes onto stage, says nothing and starts playing the gemini video and image gen preview. ![[nikolas.jpg]] CoDrops: "gave us an AI + 3D presentation that quickly turned into some glorious conference trolling". The photo op was funny. ![[nikolas1.jpg]]
+4. [Nicolas Barradeau](https://x.com/nicoptere) comes onto stage, says nothing and starts playing the gemini video and image gen preview. ![[nikolas.jpg]] CoDrops: "gave us an AI + 3D presentation that quickly turned into some glorious conference trolling". The photo op was funny. ![[nikolas1.jpg]]
 5. [Palash Bansal](https://in.linkedin.com/in/repalash) presented [iJewel](https://www.ijewel3d.com/) the 3D AR and jewerly try on /configurator.
 6. Bobby Q (YouTuber - goatee red t-shirt bobby something else on YouTube add pics) - sharing work on YouTube and build community while you learn.
 7. Isabel and David (Isabel with the epic NASA data visualizer must say thanks again and play around with it a bit more) ![[Isabelle1.jpg|400]] The Napoleon-themed AI fight: there was some comedy as things went quite wrong in the beginning. Isabel made some beautiful illustrations, and David was the dev wiz. End result was hilarious. ![[Isabelle.jpg|400]]
@@ -940,70 +939,70 @@ He's released a new TSL chapter and his portfolio which he drove around on stage
 7 Rules for a Memorable Web Experience
 
 1. Animate Everything
-                                                                                                                     ![[bruno5.jpg]]
+                                                                                                                                                                                                                                                                                                   ![[bruno5.jpg]]
 
 - Nomadic Tribe By makemepulse
-                                                                              ![[bruno7.jpg]]
+                                                                                                                                                                                                  ![[bruno7.jpg]]
 - In Pieces - by Bryan James (website that shows endangered species)
-                                                                              ![[bruno8.jpg]]
+                                                                                                                                                                                                  ![[bruno8.jpg]]
 - Anime.js V4 by Julian Garnier
-                                                                              ![[bruno9.jpg]]
+                                                                                                                                                                                                  ![[bruno9.jpg]]
 - Junni Is...
-                                                                              ![[bruno10.jpg]]
+                                                                                                                                                                                                  ![[bruno10.jpg]]
 - KPR By Resn ("A familiar world... set on a different path)
-                                                                              ![[bruno11.jpg]]
+                                                                                                                                                                                                  ![[bruno11.jpg]]
 - David Whyte Experience By Immersive Garden
 
 1. Make it smooth on any device
-                                                                                                                     ![[bruno12.jpg]]
+                                                                                                                                                                                                                                                                                                   ![[bruno12.jpg]]
 
 - Pioneer - Corn Revolutionized by Resn
-                                                                              ![[bruno13.jpg]]
+                                                                                                                                                                                                  ![[bruno13.jpg]]
 - CRU-CI-FORM By Jaume sanchez Elias
-                                                                              ![[bruno14.jpg]]
+                                                                                                                                                                                                  ![[bruno14.jpg]]
 - three.js hub
-                                                                              ![[bruno15.jpg]]
+                                                                                                                                                                                                  ![[bruno15.jpg]]
 
 ![[bruno16.mp4]] 3. One Unique Feature
 
 - Elastic Man By David Li
-                                                                              ![[bruno17.jpg]]
+                                                                                                                                                                                                  ![[bruno17.jpg]]
 - Basement Studio By basement studio
-                                                                              ![[bruno18.jpg]]
+                                                                                                                                                                                                  ![[bruno18.jpg]]
 - Paper planes By Active Theory
-                                                                              ![[bruno19.jpg]]
+                                                                                                                                                                                                  ![[bruno19.jpg]]
 - Cursor camp by Neal Agarwal
-                                                                              ![[bruno20.jpg]]
+                                                                                                                                                                                                  ![[bruno20.jpg]]
 - Entangled By Bjorn Staal
-                                                                              ![[bruno21.jpg]]
-                                                                              ![[bruno21.jpg]]
+                                                                                                                                                                                                  ![[bruno21.jpg]]
+                                                                                                                                                                                                  ![[bruno21.jpg]]
 - Pablo the Flamingo
-                                                                              ![[bruno23.mp4]]
+                                                                                                                                                                                                  ![[bruno23.mp4]]
 
 ![[bruno24.jpg]] 4. Iterate Fast
 
 - Hatom By Immersive Garden
-                                                                              ![[bruno25.jpg]]
-                                                                              ![[bruno25.mp4]]
+                                                                                                                                                                                                  ![[bruno25.jpg]]
+                                                                                                                                                                                                  ![[bruno25.mp4]]
 - Bruno's portfolio site
-                                                                              ![[bruno26.jpg]]
-                                                                              ![[bruno37.mp4]]
+                                                                                                                                                                                                  ![[bruno26.jpg]]
+                                                                                                                                                                                                  ![[bruno37.mp4]]
 
 ![[bruno27.jpg]] 5. Keep them entertained
 
 - Keep throwing shit at them
-                                                                              ![[bruno28.jpg]]
+                                                                                                                                                                                                  ![[bruno28.jpg]]
 - My Deejo by BETC & Nicolas Barradeau
 
 ![[bruno30.jpg]] 5. Treat Sound as a Feature not a bonus
 
 - Thankless Games
-                                                                              ![[bruno31.jpg]]
+                                                                                                                                                                                                  ![[bruno31.jpg]]
 - RESN By Resn
-                                                                              ![[bruno32.jpg]]
-                                                                              ![[bruno34.mp4]]
+                                                                                                                                                                                                  ![[bruno32.jpg]]
+                                                                                                                                                                                                  ![[bruno34.mp4]]
 - Revo Realms By Aleksander Gjoreski
-                                                                              ![[bruno36.jpg]]
+                                                                                                                                                                                                  ![[bruno36.jpg]]
 
 ![[bruno.mp4]]
 Codrops summary: "approached the same question (building experience people remember) from the other side, using his own work to share his rules for memorable experiences: animate everything, keep it smooth, find one original feature, iterate quickly, entertain people, use sound as a feature, and collect inspiration long before production begins."
@@ -1015,10 +1014,6 @@ Codrops summary: "approached the same question (building experience people remem
 ### Codrops (sponsor)
 
 [Tutorials](https://tympanus.net/codrops/category/tutorials/) These look fun
-
-### Misc
-
-Unrelated - reach out to Taylor about his drop, want to see where the education platform lands. And those AR Glasses, has he tried rigging any three.js stuff in it? His twitter is impossible, and Dan missed out in Malta. Maybe one day, they'd likely get along. Should connect re web3? Likely were on Voxels or whatever it was.
 
 Thanks to the crew: [Houmahani Kane](https://www.linkedin.com/in/houmahanikane/), [Adel Sanaa](https://www.linkedin.com/in/adelsanaa/) and [Rafael Teixeira](https://www.linkedin.com/in/rafaelteixeiraad/).
 
@@ -1055,13 +1050,3 @@ And the lecture hall
 
 ![[resources1.jpg]]
 This was interesting in the context of HTML in Canvas.
-
-### m01 app
-
-Presented by Xavier (think this is the kid with the killer shaders on twitter.)
-A new way to create motion graphics - it's an editor with code projects that live on your computer. [site](https://mo1.app/)
-[x](https://x.com/mo1app)
-![[unknown.jpg]]
-![[unknown1.jpg]]
-Not sure if this is the same thing, but I can't remember where it goes - models with GLTF?
-![[unknown2.jpg]]
