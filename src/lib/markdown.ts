@@ -7,6 +7,8 @@ import remarkRehype from 'remark-rehype'
 import rehypeRaw from 'rehype-raw'
 import rehypeStringify from 'rehype-stringify'
 import rehypeExternallinks from 'rehype-external-links'
+import { visit } from 'unist-util-visit'
+import type { Root } from 'hast'
 
 export type Toc = {
   id: string
@@ -16,6 +18,20 @@ export type Toc = {
     title: string
   }[]
 }[]
+
+function rehypeLazyMedia() {
+  return (tree: Root) => {
+    visit(tree, 'element', (node) => {
+      if (node.tagName === 'img') {
+        node.properties.loading = 'lazy'
+        node.properties.decoding = 'async'
+      }
+      if (node.tagName === 'video') {
+        node.properties.preload = 'metadata'
+      }
+    })
+  }
+}
 
 export function extractToc(md: string): Toc {
   const slugger = new GithubSlugger()
@@ -94,6 +110,7 @@ export async function renderMarkdown(
     .use(remarkGfm)
     .use(remarkRehype, { allowDangerousHtml: true })
     .use(rehypeRaw)
+    .use(rehypeLazyMedia)
     .use(rehypeExternallinks, {
       target: '_blank',
       rel: ['noopener', 'noreferrer'],

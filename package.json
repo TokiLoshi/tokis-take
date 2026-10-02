@@ -39,7 +39,8 @@
     "remark-rehype": "^11.1.2",
     "tailwindcss": "^4.1.18",
     "three": "^0.186.1",
-    "unified": "^11.0.5"
+    "unified": "^11.0.5",
+    "unist-util-visit": "^5.1.0"
   },
   "devDependencies": {
     "@netlify/vite-plugin-tanstack-start": "^1.2.15",
@@ -47,6 +48,7 @@
     "@tanstack/devtools-vite": "latest",
     "@tanstack/eslint-config": "latest",
     "@tanstack/router-cli": "^1.132.0",
+    "@types/hast": "^3.0.5",
     "@types/node": "^22.10.2",
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
