@@ -1,4 +1,4 @@
-# SF Tech Week 2026 (comin up)
+# SF Tech Week 2026
 
 ## Sunday 4 October:
 

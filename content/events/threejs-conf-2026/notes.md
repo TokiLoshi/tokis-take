@@ -340,23 +340,24 @@ Champagne and chats - met [Diego](https://x.com/maca_graphics) and Mark from Sho
 [LinkedIn for Justine](https://www.linkedin.com/in/justine-souli-a65ab5114/)
 [Insta for Justine](https://www.instagram.com/jus.paris/)
 [Patrick LinkedIn](https://www.linkedin.com/in/patrick-heng-67043184/)
-[PonPon](https://ponpon-mania.com/)
-Really sweet couple who sat down and looked at their strengths: she's the creative, he's the dev, and they love comic books, so they came up with [Ponpon media](https://ponpon-mania.com/)a passion project they could do together.
+[PonPon Mania](https://ponpon-mania.com/)
+Really sweet couple who sat down and looked at their strengths: she's the creative, he's the dev, and they love comic books, so they came up with [Ponpon Mania](https://ponpon-mania.com/), a passion project they could do together.
 ![[ponpon.jpg]]
 They like experimenting and pushing the medium in unexpected directions, driven to build playful experiences. They've been transforming Justine's illustrations into small interactive games and experimenting with MediaPipe to make hand tracking feel more tactile and alive.
 ![[ponpon1.jpg]]
 
 "A sketch can inspire an interaction, and an interaction can inspire a new visual idea"
 
-Pon Pon is a megalomaniac sheep who dreams of being a DJ.
+Ponpon is a megalomaniac sheep who dreams of being a DJ.
 
 1. They start with the character -> movement/poses.
 2. Character -> environment -> details
-                                                                                                                                                                                                                                                                                                   ![[ponpon2.mp4]]
 
-It is sitcom inspired by the likes of Friends and How I Met Your Mother.
+![[ponpon2.mp4]]
 
-They keep it in black and white, and the colors only come out when the characters are dreaming.
+It's sitcom-inspired by the likes of Friends and How I Met Your Mother.
+
+They keep it in black and white, and the colours only come out when the characters are dreaming.
 
 They ensure playful navigation from the start on the home page and keep easter eggs throughout to keep things playful.
 
@@ -364,7 +365,7 @@ They ensure playful navigation from the start on the home page and keep easter e
 
 It's a process, and they don't follow a strict pipeline. They must iterate quickly. They built their own editor to remove technical friction.
 
-Tech challenges: lots of assets, which they optimize with a feature atlas and GPU compression. For CPU power, they reduce textures and rely on smart rendering. To maximize memory usage, they garbage collect to dispose of what's not being used. Each panel is interactive with custom edits and shaders; the depth map helps to enhance the illustrations.
+Tech challenges: lots of assets, which they optimize with a texture atlas and GPU compression. To save CPU power, they reduce textures and rely on smart rendering. To keep memory in check, they garbage collect and dispose of what's not being used. Each panel is interactive with custom edits and shaders; the depth map helps to enhance the illustrations.
 ![[ponpon5.jpg]]
 
 Everything is hand-drawn; they use texture atlases, GPU compression, and adaptive quality to keep the experience running smoothly.
@@ -372,7 +373,7 @@ Everything is hand-drawn; they use texture atlases, GPU compression, and adaptiv
 
 ### Dennis Smolek & Kris Baumgartner - pmndrs
 
-#### Pmndrs. Beyond React Three Fiber
+#### pmndrs. Beyond React Three Fiber
 
 _Kris:_ (Kristopher Baumgartner)
 [LinkedIn](https://www.linkedin.com/in/kris-baumgartner-93661369/)
@@ -380,18 +381,18 @@ _Kris:_ (Kristopher Baumgartner)
 
 ![[pmndrs7.jpg]]
 
-Kris is from New York, seemed to find AI rather dubious, and alluded to having a robot looming over the community.
+Kris is from New York, was skepitcal about AI joking about having a robot looming over the community.
 ![[pmndrs2.jpg|400]]
 
-Roughly 1/3 of installs use R3F (three.js is imperative, and R3F is Declarative).
+Roughly 1/3 of three.js installs also use R3F (three.js is imperative, and R3F is Declarative).
 
-The PMNDRs ecosystem, a snapshot:
+The PMNDRS ecosystem, a snapshot:
 ![[pmndrs5.jpg]]
 Images show size relative to downloads. Zustand is massive.
 ![[pmndrs.jpg|400]]
-[PMNDRS](https://pmnd.rs/) are an open-source dev collective with 100K downloads weekly. Kris admits the name means absolutely nothing and people have trouble pronouncing it.
+[pmndrs](https://pmnd.rs/) are an open-source dev collective. Kris admits the name means absolutely nothing and people have trouble pronouncing it.
 ![[pmndrs10.jpg]]
-He's been having fun with a Minecraft clone they built for the workshop and may land up sharing it. Something about a pig mount? Repo with Mincraft and [xr](https://github.com/pmndrs/xr/blob/main/examples/minecraft/src/VRPlayerControl.tsx)
+He's been having fun with a Minecraft clone they built for the workshop and may land up sharing it. Repo with Minecraft and [xr](https://github.com/pmndrs/xr/blob/main/examples/minecraft/src/VRPlayerControl.tsx)
 ![[pmndrs9.jpg]]
 
 While working on the game, he discovered the JS JIT compiler can create garbage while optimizing code, but that garbage needs to be collected, and when new code is loaded dynamically, the extra garbage collection can become a source of jank.
@@ -406,15 +407,15 @@ The principles:
 2. Pragmatic: must solve a problem people genuinely and generally have.
 3. Stable: comes easily when you follow simple and pragmatic, but it must be stable for the enterprise users who rely on them.
 4. Open: Knowledge is free, contributing is free.
-5. Tasteful\*: you can't put it in the charter, but they abide by it.
+5. Tasteful: you can't put it in the charter, but they abide by it.
 
 Trust allows enterprises and unicorns to build on their software even without having founded an org. They signed the charter in July 2026 based on questions they needed to answer.
 ![[pmndrs14.jpg]]
 
-Initiatives are based on what people love, but they come from people who build based on motivation; but if they build with purpose (solving a problem that has been proven to exist), then they can have the autonomy to proceed. Shares the story of someone building something they love and have spent ages on as a passion project, only to show it to someone who says it doesn't work or isn't needed, and then they become demotivated. The new way they decide on things is that they will decide on the why and the how, and then people have autonomy to build as they see fit with the guiding principles.
+Initiatives are based on what people love. They come from people who build based on motivation; but if they build with purpose (solving a problem that has been proven to exist), then they can have the autonomy to proceed. Shares the story of someone building something they love and have spent ages on as a passion project, only to show it to someone who says it doesn't work or isn't needed, and then they become demotivated. The new way of building as a collective is they decide on things is that they will decide on the why and the how, and then people have autonomy to build as they see fit with the guiding principles.
 ![[pmndrs16.jpg]]
 
-They also mentioned the Discord had died, maintainers were disappearing and now people are getting to them on X. They're hopeful this conference will bring people back and they can revive the community.
+They also mentioned the Discord had died, maintainers were disappearing and now people are reaching out to them on X. They're hopeful this conference will bring people back and they can revive the community.
 ![[pmndrs17.jpg]]
 
 Working towards a more structured ecosystem where contributors can take on initiatives with greater autonomy. There's lots of room to rethink how we build for the web.
@@ -429,21 +430,21 @@ Working with FSR upscalers, OIDN denoisers, Unreal Sky and other org libs.
 ![[pmndrs18.jpg]]
 
 Welcome V10! R3F! Finally!!
-What is FSR3? and how does it approach global illumination? Aim is to get closer to what native apps can do.
+Aim is to get closer to what native apps can do.
 ![[pmndrs19.jpg]]
 
-Declarative WebGPU with scheduler, stadows, graphs, physics and framerate.
-TSL -> hooks
-DREI Reborn (144 updated components)
-Glyph - text renderer
-MSDF, Slug, Windfail
-HTML in Canvas (sorry Google)
-New design system with shaders
-Math - Isaac Nelson
-![[pmndrs20.jpg]]
+- Declarative WebGPU with scheduler, shadows, graphs, physics and framerate.
+- TSL -> hooks
+- DREI Reborn (144 updated components)
+- Glyph - text renderer
+- MSDF, Slug, Windfail
+- HTML in Canvas (sorry Google)
+- New design system with shaders
+- Math - Isaac Nelson
+                        ![[pmndrs20.jpg]]
 
-```npm i math
-
+```bash
+npm i math
 ```
 
 The new math engine enables spatial math
@@ -466,15 +467,13 @@ They're always open to experiments and the community jumping in to help.
 
 ![[damien.jpg]]
 
-AR Glasses? Sounds like he likes gadgets. Wasn't supposed to talk; Daniel was supposed to talk, according to Diego (one of their team of 5) + freelancers, which is the first year they've let those on. Curious to see the final team. Damien seems like quite a whiz. Love the focus on fun and experiments for creative coding and messing around with interfaces.
-
 The web is getting fun again. He loved the Flash era. Seems like lots of people at the conference did.
 ![[damien1.jpg]]
 
 It was easy to build for juniors and easy to share on the web. Strong creative dev energy.
 ![[damien2.jpg]]
 
-Then Flash died, and the web was not as fun anymore. He used to be flatmates with David, who one day came up to him with the idea to build a WebGL Advent Calendar. Damien made the first experiment in one night. The Christmas Experiment (TCE) was born.
+Then Flash died, and the web was not as fun anymore. He used to be flatmates with David, who one day came up to him with the idea to build a WebGL Advent Calendar. Damien made the first experiment in one night. The Christmas Experiments (TCE) was born.
 ![[damien3.jpg]]
 
 The advent calendar became 1 day, 1 creation, and music was key. They pulled the community together.
@@ -487,7 +486,7 @@ It's coming back now because the gap between code and design is closing.
 
 Shopify is using it for fun and creativity.
 ![[damien6.jpg]]
-The Edition [Links - different ones for UK and US I think](https://www.shopify.com/uk/editions) - comes out every six months and showcases new features, with easter eggs. e.g the Renaissance piece, which had a key that you could use to open things as a surprise in the experience. The Black Friday Cyber Monday (BFCM) interactive or the pinball, in which the cheat boards were unlockable.
+The Edition [Shopify Editions](https://www.shopify.com/ca/editions) - comes out every six months and showcases new features, with easter eggs. e.g the Renaissance piece, which had a key that you could use to open things as a surprise in the experience. The Black Friday Cyber Monday (BFCM) interactive or the pinball, in which the cheat boards were unlockable.
 ![[damien7.jpg]]
 
 Shows a series of fun experiments
@@ -506,40 +505,37 @@ Rules for the sites they build:
 
 - easter eggs
 - Music is very NB
-  What's important to them?
+- What's important to them?
 
 1. Be naive
 2. Mix things
 3. Wahou effect
 4. Sound and music
 5. Multiplayer
-                                                                                                                                                                                                                                                                                                                                                                                                                        ![[damien12.jpg]]
+                                                                                            ![[damien12.jpg]]
 
-[tearible UI (Really cool)](https://shouldseethis.com/website/tearable/)
+[tearable UI (Really cool)](https://shouldseethis.com/website/tearable/)
 Confetti machine, why not!?
 ![[damien14.mp4]]
-Text experiments are beautiful, especially the one threading.
+Text experiments are beautiful, especially the threading one.
 Dot.dev experiments.
 ![[damien15.jpg]]
 ![[damien18.jpg]]
 ![[damien19.mp4]]
 The wall experiments where every button is a pixel, and you push the wall and shit happens.
 
-Take a photo and make things talk? Hi, I'm a can? (pics here can't remember what they made talk)
-Tony Hawk-ish in three.js
-Splat experiments
-Fun interactions.
-Phone pole is cool (Summit) - games. On the phone pole, they made it infinite and let everyone put stickers on it and keep going (the one with the poster and "Have you seen my stapler?" which is stuck onto the pole with a stapler)
+- Take a photo and make things talk, (Hi, I'm a can)
+- Tony Hawk-ish in three.js
+- Splat experiments
+- Fun interactions.
+- Phone pole is cool (Summit) - games. On the phone pole, they made it infinite and let everyone put stickers on it and keep going (the one with the poster and "Have you seen my stapler?" which is stuck onto the pole with a stapler)
 
-He keeps going back to music, and they even built a song in real time. What's the story? Real-time music linked to the sales happening during Black Friday/Cyber Monday.
+He keeps going back to music, and they even built a song in real time. Real-time music linked to the sales happening during Black Friday/Cyber Monday.
 
 Why do they put in so much effort? It's out of love for the web.
 ![[damien20.mp4]]
 
-Also with Damien are Mark? (oh hii Mark..) A (graphic designer living in Calgary - mentioned no one goes there; they all go to Banff) and Diego (super friendly dude living in Montreal ). Working on something top secret for next BFCM,
 ![[damien21.jpg]]
-
-Diego also mentioned the scraping (or another term) of all the shops on Shopify while discussing the future of SEO and how only 12% of the links in the LLMs now are coming from the top 10 Google links, so what we're getting in from the LLMS is the stuff below the page. The thought here might be that it is searching for specificity. Bye-bye backlinks.
 
 Damien's advice according to CoDrops: "Be naive, mix things, create a wow effect, use sound, and think multiplayer."
 
@@ -561,7 +557,7 @@ And then you get cool objects like this:
 4. Radiance fields ![[miris7.jpg]] this is like a painter working in brush strokes. Here, it's blobs splattered based on the angle you're looking at, and it's much more efficient.
 5. 1.3 GB is a lot of data, but the source asset was 40GB.
 6. Stream it instead - streaming spatial data ![[miris8.jpg]]
-                                                                                                                                                                                                                                                                                                   This shows how it renders low poly and the details fill in kinda like how you start buffering a show and the image gets sharper and sharper.
+                                                                                                                                                                                                                                                                                                                                                                                             This shows how it renders low poly and the details fill in kinda like how you start buffering a show and the image gets sharper and sharper.
 
 Spatial streaming:
 This is the most basic, interactive, even if it's not the prettiest, and it is 213,000x faster to get it interactive.
@@ -664,10 +660,10 @@ Postprocessing:
   - Cones with ambient occlusion, single sunlight, and that's it. The rest is post-processing
   - Global illumination ![[anderson14.jpg]]
 - Chromatic Aberration:
-  - RGB distortion - what comes from not focusing on the colors, same as a camera
+  - RGB distortion - what comes from not focusing on the colours, same as a camera
   - DOF
 - Lens Flare: - It's not aware of depth
-                                                                                                                                                                                                  Raycasting is too expensive ![[anderson22.jpg]]
+                                                                                                                                                                                                                                                              Raycasting is too expensive ![[anderson22.jpg]]
 
 > [!photo]- Gallery
 > ![[anderson17.jpg]] ![[anderson18.jpg]]
@@ -727,15 +723,15 @@ To optimize you need to know where the time goes.
 - Visibility buffs?? (basically what Unreal Engine is using) - use id and get the data
 - Kinect for this
 - Media pipe vs kinect (media pipe will never render in relative). Kinnect or macro with neural engine like Apple neural engine, or optimized for GPU Recorded vision OS
-                                                                                                                                                                                                  ![[renault6.jpg]]
-                                                                                                                                                                                                  It took him a month. Shipped once.
-                                                                                                                                                                                                  ![[renault7.jpg]]
-                                                                                                                                                                                                  ![[renault8.jpg]]
-                                                                                                                                                                                                  ![[renault11.jpg]]
-                                                                                                                                                                                                  Three.js blocks - in trial beta
-                                                                                                                                                                                                  Action: try it and reach out. Especially enjoyed his take on how he's using AI in his workflows. This was really helpful.
-                                                                                                                                                                                                  ![[renault12.jpg]]
-                                                                                                                                                                                                  ![[renault13.jpg]]
+                                                                                                                                                                                                                                                              ![[renault6.jpg]]
+                                                                                                                                                                                                                                                              It took him a month. Shipped once.
+                                                                                                                                                                                                                                                              ![[renault7.jpg]]
+                                                                                                                                                                                                                                                              ![[renault8.jpg]]
+                                                                                                                                                                                                                                                              ![[renault11.jpg]]
+                                                                                                                                                                                                                                                              Three.js blocks - in trial beta
+                                                                                                                                                                                                                                                              Action: try it and reach out. Especially enjoyed his take on how he's using AI in his workflows. This was really helpful.
+                                                                                                                                                                                                                                                              ![[renault12.jpg]]
+                                                                                                                                                                                                                                                              ![[renault13.jpg]]
 
 "An agent is only as good as its test"
 
@@ -835,7 +831,7 @@ Geogen to create the terrain, threw a point light in [Houdini](https://www.sidef
 4. Self-shadowing
 5. Global illumination
 6. Ray trace along axis and combine.
-                                                                                                                                                                                                                                                                                                   ![[edwan.jpg]]
+                                                                                                                                                                                                                                                                                                                                                                                             ![[edwan.jpg]]
 
 All about prebaking shadows and image sequencing the. baked shadows. How they were able to do this with shadows and display in I think houdini? Was epic and then they go the AI to figure it out.
 ![[edwan1.jpg]]
@@ -939,70 +935,70 @@ He's released a new TSL chapter and his portfolio which he drove around on stage
 7 Rules for a Memorable Web Experience
 
 1. Animate Everything
-                                                                                                                                                                                                                                                                                                   ![[bruno5.jpg]]
+                                                                                                                                                                                                                                                                                                                                                                                             ![[bruno5.jpg]]
 
 - Nomadic Tribe By makemepulse
-                                                                                                                                                                                                  ![[bruno7.jpg]]
+                                                                                                                                                                                                                                                              ![[bruno7.jpg]]
 - In Pieces - by Bryan James (website that shows endangered species)
-                                                                                                                                                                                                  ![[bruno8.jpg]]
+                                                                                                                                                                                                                                                              ![[bruno8.jpg]]
 - Anime.js V4 by Julian Garnier
-                                                                                                                                                                                                  ![[bruno9.jpg]]
+                                                                                                                                                                                                                                                              ![[bruno9.jpg]]
 - Junni Is...
-                                                                                                                                                                                                  ![[bruno10.jpg]]
+                                                                                                                                                                                                                                                              ![[bruno10.jpg]]
 - KPR By Resn ("A familiar world... set on a different path)
-                                                                                                                                                                                                  ![[bruno11.jpg]]
+                                                                                                                                                                                                                                                              ![[bruno11.jpg]]
 - David Whyte Experience By Immersive Garden
 
 1. Make it smooth on any device
-                                                                                                                                                                                                                                                                                                   ![[bruno12.jpg]]
+                                                                                                                                                                                                                                                                                                                                                                                             ![[bruno12.jpg]]
 
 - Pioneer - Corn Revolutionized by Resn
-                                                                                                                                                                                                  ![[bruno13.jpg]]
+                                                                                                                                                                                                                                                              ![[bruno13.jpg]]
 - CRU-CI-FORM By Jaume sanchez Elias
-                                                                                                                                                                                                  ![[bruno14.jpg]]
+                                                                                                                                                                                                                                                              ![[bruno14.jpg]]
 - three.js hub
-                                                                                                                                                                                                  ![[bruno15.jpg]]
+                                                                                                                                                                                                                                                              ![[bruno15.jpg]]
 
 ![[bruno16.mp4]] 3. One Unique Feature
 
 - Elastic Man By David Li
-                                                                                                                                                                                                  ![[bruno17.jpg]]
+                                                                                                                                                                                                                                                              ![[bruno17.jpg]]
 - Basement Studio By basement studio
-                                                                                                                                                                                                  ![[bruno18.jpg]]
+                                                                                                                                                                                                                                                              ![[bruno18.jpg]]
 - Paper planes By Active Theory
-                                                                                                                                                                                                  ![[bruno19.jpg]]
+                                                                                                                                                                                                                                                              ![[bruno19.jpg]]
 - Cursor camp by Neal Agarwal
-                                                                                                                                                                                                  ![[bruno20.jpg]]
+                                                                                                                                                                                                                                                              ![[bruno20.jpg]]
 - Entangled By Bjorn Staal
-                                                                                                                                                                                                  ![[bruno21.jpg]]
-                                                                                                                                                                                                  ![[bruno21.jpg]]
+                                                                                                                                                                                                                                                              ![[bruno21.jpg]]
+                                                                                                                                                                                                                                                              ![[bruno21.jpg]]
 - Pablo the Flamingo
-                                                                                                                                                                                                  ![[bruno23.mp4]]
+                                                                                                                                                                                                                                                              ![[bruno23.mp4]]
 
 ![[bruno24.jpg]] 4. Iterate Fast
 
 - Hatom By Immersive Garden
-                                                                                                                                                                                                  ![[bruno25.jpg]]
-                                                                                                                                                                                                  ![[bruno25.mp4]]
+                                                                                                                                                                                                                                                              ![[bruno25.jpg]]
+                                                                                                                                                                                                                                                              ![[bruno25.mp4]]
 - Bruno's portfolio site
-                                                                                                                                                                                                  ![[bruno26.jpg]]
-                                                                                                                                                                                                  ![[bruno37.mp4]]
+                                                                                                                                                                                                                                                              ![[bruno26.jpg]]
+                                                                                                                                                                                                                                                              ![[bruno37.mp4]]
 
 ![[bruno27.jpg]] 5. Keep them entertained
 
 - Keep throwing shit at them
-                                                                                                                                                                                                  ![[bruno28.jpg]]
+                                                                                                                                                                                                                                                              ![[bruno28.jpg]]
 - My Deejo by BETC & Nicolas Barradeau
 
 ![[bruno30.jpg]] 5. Treat Sound as a Feature not a bonus
 
 - Thankless Games
-                                                                                                                                                                                                  ![[bruno31.jpg]]
+                                                                                                                                                                                                                                                              ![[bruno31.jpg]]
 - RESN By Resn
-                                                                                                                                                                                                  ![[bruno32.jpg]]
-                                                                                                                                                                                                  ![[bruno34.mp4]]
+                                                                                                                                                                                                                                                              ![[bruno32.jpg]]
+                                                                                                                                                                                                                                                              ![[bruno34.mp4]]
 - Revo Realms By Aleksander Gjoreski
-                                                                                                                                                                                                  ![[bruno36.jpg]]
+                                                                                                                                                                                                                                                              ![[bruno36.jpg]]
 
 ![[bruno.mp4]]
 Codrops summary: "approached the same question (building experience people remember) from the other side, using his own work to share his rules for memorable experiences: animate everything, keep it smooth, find one original feature, iterate quickly, entertain people, use sound as a feature, and collect inspiration long before production begins."
