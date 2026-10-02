@@ -441,7 +441,7 @@ Aim is to get closer to what native apps can do.
 - HTML in Canvas (sorry Google)
 - New design system with shaders
 - Math - Isaac Nelson
-                        ![[pmndrs20.jpg]]
+                                                                                                                                                                                                                    ![[pmndrs20.jpg]]
 
 ```bash
 npm i math
@@ -512,7 +512,7 @@ Rules for the sites they build:
 3. Wahou effect
 4. Sound and music
 5. Multiplayer
-                                                                                            ![[damien12.jpg]]
+                                                                                                                                                                                                                                                                                                                                                                                      ![[damien12.jpg]]
 
 [tearable UI (Really cool)](https://shouldseethis.com/website/tearable/)
 Confetti machine, why not!?
@@ -543,48 +543,51 @@ Damien's advice according to CoDrops: "Be naive, mix things, create a wow effect
 
 #### Complex 3D assets, delivered instantly
 
-AI company.
-NVIDIA path-traced the tree in 5 seconds. With an iPhone the same phone took 8ms (120 frames per second). The phone was able to load it in 8ms; why did an NVIDIA chip take 5 seconds?
+NVIDIA path-traced the tree in 5 seconds. With an iPhone the same phone took 8ms (120 frames per second). The phone was able to load it in 8ms;
 ![[miris.jpg|400]]
 iPhone is speedy!
 ![[miris1.jpg]]
 And then you get cool objects like this:
 ![[miris2.jpg]]
 
-1. Path tracing per pixel is not the most efficient for the GPU; this is why NVIDIA took 5 seconds.![[miris3.jpg|400]]
-2. Next approach: physically based rendering, pass once per light source. This is better, but you get a loss in fidelity. ![[miris5.jpg]]
+1. Path tracing per pixel is not the most efficient for the GPU;![[miris3.jpg|400]]
+2. Next approach: physically based rendering, one pass per light source. This is better, but you get a loss in fidelity. ![[miris5.jpg]]
 3. Ambient occlusion, and it doesn't look as good. We're saying this is what light should do and then follow the algorithm. What if we don't need to? What if we record the light and then do a lookup?
 4. Radiance fields ![[miris7.jpg]] this is like a painter working in brush strokes. Here, it's blobs splattered based on the angle you're looking at, and it's much more efficient.
-5. 1.3 GB is a lot of data, but the source asset was 40GB.
+5. 1.3 GB is a lot of data, but the source asset was 40 GB.
 6. Stream it instead - streaming spatial data ![[miris8.jpg]]
-                                                                                                                                                                                                                                                                                                                                                                                             This shows how it renders low poly and the details fill in kinda like how you start buffering a show and the image gets sharper and sharper.
+
+This shows how it renders low poly and the details fill in kinda like how you start buffering a show and the image gets sharper and sharper.
 
 Spatial streaming:
-This is the most basic, interactive, even if it's not the prettiest, and it is 213,000x faster to get it interactive.
+This is the most basic, even if it's not the prettiest, and it is 213,000x faster to get it interactive.
 
 ![[miris17.jpg]]
 
 Embedding radiance fields:
-Gaussian splats are going mainstream, and it is one of the primitives in radiance fields. New algorithms and compressions are coming.
+Gaussian splats are going mainstream. They are one of the primitives in radiance fields. New algorithms and compressions are coming.
 ![[miris18.jpg]]
 ![[miris20.jpg]]
-Action: Check blog post to get a deep dive
 ![[miris21.jpg]]
 
-miris/three
+`@miris/three`
 ![[miris22.jpg]]
 
-Summary according to CoDrops: "Miris captures how a scene looks from different viewpoints and progressively streams the spatial data needed by the viewer, allowing highly detailed 3D to run locally on devices like an iPhone. Their Three.js integration makes it possible to bring these streamed assets into familiar workflows." Pushing the boundaries of what's possible in the browser.
+Summary according to Codrops: "Miris captures how a scene looks from different viewpoints and progressively streams the spatial data needed by the viewer, allowing highly detailed 3D to run locally on devices like an iPhone. Their Three.js integration makes it possible to bring these streamed assets into familiar workflows." Pushing the boundaries of what's possible in the browser.
+
+[blog](https://www.miris.com/blog)
 
 ### AI 3D Design Workflow
 
-#### Animated by Florian Zumbrunn with Fal.ai, Miris, Herve
+#### Animated by Florian Zumbrunn with Fal.ai, Miris, Hervé
 
 ![[panelWork1.jpg]]
 Summary according to Coodrops:
 "The biggest opportunity isn't simply productivity. AI shortens the distance between an idea and something you can actually see, test, and iterate on. That means more room to explore, especially for visual work where making something quickly can be the fastest way to understand what needs to change. They also stressed that experience still matters. Knowing how to design and build helps you guide AI, spot when something is wrong, and shape the tools around your own needs rather than accepting what gets generated. AI is opening up more space between imagination and execution."
 
 ### Mikhail Kiiatkin - EdClub
+
+#### Shipping Hand-Painted Assets for Three.js
 
 [X](https://x.com/mesqme)
 [LinkedIn](https://www.linkedin.com/in/mesqme/)
@@ -593,24 +596,23 @@ This went over my head, but I want to revisit when my Blender skills don't suck 
 ![[mikhail.jpg]]
 
 Threepack - library for reusable assets somewhere on Twitter.
-
 ![[mikhail1.jpg]]
 
-#### Shipping Hand-Painted Assets for Three.js
+- Gradient fetching
+- KTX2 compression for GPU
+- Batched mesh - one draw call. The downside is the material.
 
-Gradient fetching
-KTXZ compression for GPU
-Batched mesh - one draw call. The downside is the material.
-Presentation is available somewhere
 ![[mikhail2.jpg]]
 ![[mikhail3.jpg]]
 ![[mikhail4.jpg]]
-The colour mapping and rgb painting to vector was really cool. Need to dig into how this works more.
+
+The colour mapping and rgb painting to vector was really cool.
 ![[mikhail5.jpg]]
+
 End product:
 ![[mikhail6.jpg]]
 
-CoDrops summary:[Misha Kiiatkin](https://www.linkedin.com/in/mesqme/) took us through the pipeline his team developed for a game, starting with simple low-poly models and hand-painted textures before optimizing everything for Three.js. Texture atlases, KTX2 compression, and geometry batching help turn all that detailed artwork into an efficient final scene, with the goal of keeping the creative process fast without sacrificing the visual style."
+Codrops summary:[Misha Kiiatkin](https://www.linkedin.com/in/mesqme/) took us through the pipeline his team developed for a game, starting with simple low-poly models and hand-painted textures before optimizing everything for Three.js. Texture atlases, KTX2 compression, and geometry batching help turn all that detailed artwork into an efficient final scene, with the goal of keeping the creative process fast without sacrificing the visual style."
 
 ### Anderson Mancini - WebGPU
 
@@ -625,7 +627,7 @@ CoDrops summary:[Misha Kiiatkin](https://www.linkedin.com/in/mesqme/) took us th
 ![[anderson2.jpg|400]]
 
 Everything renders in real time 6MB.
-He started on a 3D studio on MSDOs for deving 3D stuff. But he started with three.js during COVID and built 100+ projects and came up with a portfolio and awesome projects like Explore Italia. Now he's in orbit to Bruno, and the guy Bruno sends projects he can't take or doesn't want to.
+He started on a 3D studio on MS-DOS for deving 3D stuff. But he started with three.js during COVID and built 100+ projects and came up with a portfolio and awesome projects like Explore Italia. Now Bruno sends projects his way.
 
 Breaking down the housing project he made for a client.
 
@@ -636,19 +638,19 @@ Breaking down the housing project he made for a client.
 
 ![[anderson.jpg|400]]
 
-Reviews his caustics and showcase: the Cyberpunk one he did for the workshop (please let there be a video) and the pool that was famous with the turtle. ![[anderson11.jpg|400]]
+Reviews his caustics and showcase: the Cyberpunk one he did for the workshop and the pool that was famous with the turtle. ![[anderson11.jpg|400]] The repo is available on [GitHub](https://github.com/ektogamat/threejs-conference)
 
 Back to the project which needed 15,000 trees. ![[anderson5.jpg|400]]
 
 1. Tried instancing and it immediately dropped to 10 FPS because of the density of the trees and the complexity ![[anderson6.jpg]]
 2. Billboards - trees out of textures and then isntance them but it all looks the same like that so that doesn't work.
-3. Octahedral imposters - these are used in fortnight. Create an atlas for every angle. Draw fall for 15,000 its ? Use the atlas with three.js ![[anderson7.jpg|400]]
-4. Texture based on where to plant the trees so you can be sure. you're not planting them in a road (texture map) ![[anderson8.jpg]]
+3. Octahedral imposters - these are used in Fortnight. Create an atlas for every angle.
+   [[anderson7.jpg|400]]
+4. Texture based on where to plant the trees so you can be sure it's not. you're not planting them in a road or otherwise occupied space (texture map) ![[anderson8.jpg]]
 
 ![[anderson9.jpg|400]]
 
-R3F - glb, atlas, automachcanicaly?
-Action: Sign up for his newsletter and reach out
+R3F - glb, atlas
 ![[anderson10.jpg|400]]
 
 Colour balancing is really important
@@ -662,8 +664,8 @@ Postprocessing:
 - Chromatic Aberration:
   - RGB distortion - what comes from not focusing on the colours, same as a camera
   - DOF
-- Lens Flare: - It's not aware of depth
-                                                                                                                                                                                                                                                              Raycasting is too expensive ![[anderson22.jpg]]
+- Lens Flare: It's not aware of depth
+- Raycasting is too expensive ![[anderson22.jpg]]
 
 > [!photo]- Gallery
 > ![[anderson17.jpg]] ![[anderson18.jpg]]
@@ -681,7 +683,7 @@ UX, UI:
 - This helps users to make a decision.
 
 His showcase can also solve problems like drainage (sounds like another project); really cool application.
-He's released [R3F-webgpu-perf](https://github.com/ektogamat/r3f-webgpu-perf), a performance monitoring tool for R3F to help developers understand what is happening inside the scenes and offer real-time guidance on optimizing them.
+He's released [r3f-webgpu-perf](https://github.com/ektogamat/r3f-webgpu-perf), a performance monitoring tool for R3F to help developers understand what is happening inside the scenes and offer real-time guidance on optimizing them.
 
 His projects are [Lumen Decor Studio](https://lumen-decor-studio.vercel.app/) and [CerealBNB](https://cerealbnb.com/)
 
@@ -692,7 +694,7 @@ His projects are [Lumen Decor Studio](https://lumen-decor-studio.vercel.app/) an
 > ![[anderson29.mp4]]![[anderson30.jpg]]
 > ![[anderson31.jpg]]
 
-Coodrops summary: "How he approaches ambitious WebGPU experiences under a strict technical budget. He shows how techniques borrowed from games, including octahedral imposters for rendering large numbers of trees efficiently, can help create rich environments while keeping the whole experience around just 6MB. Message was clear: start with the visual goal, set your technical limits early, and keep finding creative ways around them."
+Codrops summary: "How he approaches ambitious WebGPU experiences under a strict technical budget. He shows how techniques borrowed from games, including octahedral imposters for rendering large numbers of trees efficiently, can help create rich environments while keeping the whole experience is around just 6MB. Message was clear: start with the visual goal, set your technical limits early, and keep finding creative ways around them."
 
 ### Renaud Rohlinger - Performance Magic
 
@@ -704,38 +706,38 @@ Coodrops summary: "How he approaches ambitious WebGPU experiences under a strict
 ![[renault.jpg]]
 Absolute whiz kid. Love what he said about using the AI and then digging deeper because he's curious. Offloading it and asking "why did you optimize it this way, how does this work" and using it to run while he sleeps and then learn from it.
 ![[renault1.jpg]]
-Very honest and hopes the juniors coming up have the curiosity he thinks is needed in this world. Crazy smart and one of the, if not the, most technical talks. Need to try blocks.
+Very honest and hopes the juniors coming up have the curiosity he thinks is needed in this world.
 Gaussian Splatting as a stress test with hundreds of thousands of primitives needing to be sorted every frame. "It's never where I assumed"
 ![[renault3.jpg]]
 Key debugging ritual "What is the before / after status"
 ![[renault4.jpg]]
 Why not one million particles?
 
-He's the CTO and co-founder of Utsubo. They've been doing interactive installations lately like the one they did at the Osaka World expo with the Great Wave (it was famous). So how do you do this?
+He's the CTO and co-founder of Utsubo. They've been doing interactive installations lately like the one they did at the Expo 2025 Osaka with the famous Great Wave. How did they do this? He goes on to explain.
 ![[renault5.jpg]]
 
 To optimize you need to know where the time goes.
 
-- Grid - transfer, update, move, repeate,
+- Grid - transfer, update, move, repeat,
 - Opacity node in TSL - TSL materials
 - Flatten.
 - Billboard depth - TSL depthn node (very expensive)
-- Visibility buffs?? (basically what Unreal Engine is using) - use id and get the data
+- Visibility buffers (basically what Unreal Engine is using) - use id and get the data
 - Kinect for this
-- Media pipe vs kinect (media pipe will never render in relative). Kinnect or macro with neural engine like Apple neural engine, or optimized for GPU Recorded vision OS
-                                                                                                                                                                                                                                                              ![[renault6.jpg]]
-                                                                                                                                                                                                                                                              It took him a month. Shipped once.
-                                                                                                                                                                                                                                                              ![[renault7.jpg]]
-                                                                                                                                                                                                                                                              ![[renault8.jpg]]
-                                                                                                                                                                                                                                                              ![[renault11.jpg]]
-                                                                                                                                                                                                                                                              Three.js blocks - in trial beta
-                                                                                                                                                                                                                                                              Action: try it and reach out. Especially enjoyed his take on how he's using AI in his workflows. This was really helpful.
-                                                                                                                                                                                                                                                              ![[renault12.jpg]]
-                                                                                                                                                                                                                                                              ![[renault13.jpg]]
+- Media pipe vs kinect for tracking (trade-offs)
+- [Three.js Blocks](https://threejs-blocks.com/) in beta. Especially enjoyed his take on how he's using AI in his workflows. This was really helpful. Using it to find new ways of doing things and getting curious about why the AI picked that way of doing things, and potentially learn from it.
+
+![[renault6.jpg]]
+It took him a month. Shipped once.
+![[renault7.jpg]]
+![[renault8.jpg]]
+![[renault11.jpg]]
+![[renault12.jpg]]  
+![[renault13.jpg]]
 
 "An agent is only as good as its test"
 
-The whole talk is available on X.
+The whole talk is available on [X](https://x.com/onirenaud/status/2099197233073619082?s=20).
 ![[renault14.jpg]]
 ![[renault16.jpg]]
 ![[renault17.jpg]]
@@ -751,23 +753,22 @@ Main idea: "Push the visuals, then figure out how to make the technology keep up
 ![[renault23.jpg]]
 ![[renault25.jpg]]
 ![[renault26.jpg]]
-![[renault26.jpg]]
 ![[renault30.jpg]]
 
-### Cassandre Leguay - UX Meets performance Arts
+### Cassandre Leguay - UX Meets Performance Arts
 
-Cassandra is an interactive and UX designer. She works at Moment Factory, and went to GOBELINS school.
+Cassandre is an interactive and UX designer. She works at Moment Factory, and went to GOBELINS school.
 [insta](https://www.instagram.com/cassandrely_/)
-[LinkedinI](https://www.linkedin.com/in/cassandre-leguay-designer/?locale=en)
-[website](https://momentfactory.com/)
+[LinkedIn](https://www.linkedin.com/in/cassandre-leguay-designer/?locale=en)
+[Moment Factory](https://momentfactory.com/)
 [X](https://x.com/Cassandrely)
 
-Works at the Moment Factory on projects inspired by live entertainment. Her and her colleagues created a vibe coding jam generating prototypes for interactive games in the physical world.
+Works at Moment Factory on projects inspired by live entertainment. Her and her colleagues created a vibe coding jam generating prototypes for interactive games in the physical world.
 
-She looks at UX throught he lens of performing arts and draws lessons from cinema and theatre magic. Her idea is simple: set the frame, direct attention, build anticipation and finally break the frame. The idea is that immersive experiences don't need more spectacle. They need better staging.
+She looks at UX throught the lens of performing arts and draws lessons from cinema and theatre magic. Her idea is simple: set the frame, direct attention, build anticipation and finally break the frame. The idea is that immersive experiences don't need more spectacle. They need better staging.
 ![[cassandre.jpg]]
 
-She went to the theatre and saw Harry Potter and the cursed child and this made her realize how many websites are just flat. The user jouney is not about technical complexity. What worked well is when the show controls what the user perceives. She know what she should be looking at, and has expectations about that.
+She went to the theatre and saw Harry Potter and the Cursed Child and this made her realize how many websites are just flat. The user journey is not about technical complexity. What worked well is when the show controls what the user perceives. She knew what she should be looking at, and has expectations about that.
 
 1. Anticipation: Going to the theatre
 2. Excitement: Harry Potter is magic, we start expecting visual effects on stage
@@ -778,8 +779,8 @@ She went to the theatre and saw Harry Potter and the cursed child and this made 
 The journey is a sequence of actions. It needs to all be clear enough for people to participate w/o breaking the illusion. You control where the intent ends and the environment begins.
 
 1. Set a frame - we accept this as a user e.g the frame is the stage. In an immersive experience we intentionally set this frame.
-2. Direct the anticipation - let he user know something will happen.
-3. Break the frame - Surprise them. She gives the examples as the tipex ad on YouTube where the man comes out of the frame and tipexes out the headline. Or The Truman Show.
+2. Direct the anticipation - let the user know something will happen.
+3. Break the frame - Surprise them. She gives the examples as the Tipp-Ex ad on YouTube where the man comes out of the frame and Tipp-Exs out the headline. Or The Truman Show.
 
 ![[cassandre1.jpg]]
 
@@ -797,22 +798,25 @@ The web is a stage and you should stage things properly.
 
 [X](https://x.com/sea3dformat)
 [GitHub](https://github.com/sunag)
-Breaking down the Gaussian blur.
-![[sunag.jpg]]
-Node extends temp node TempNode
-MRT - Multiple render targets
-TSL Guide will be available in the next release.
-![[sunag1.jpg]]
+
+- Breaking down the Gaussian blur.
+                                                                                          ![[sunag.jpg]]
+- Node extends temp node TempNode
+- MRT - Multiple render targets
+- TSL Guide will be available in the next release.
+                                                                                          ![[sunag1.jpg]]
+
 Walks through the benefits of TSL (more from a perspective of what it gets to do than too many of the technicalities).
 Would have been awesome to see this workshop. Real name is Jean Carlo Deconto but everyone calls him Sunag from online so he goes by that now.
+
 ![[sunag2.jpg]]
 ![[sunag3.jpg]]
 ![[sunag4.jpg]]
 ![[sunag5.jpg]]
-Need to try and find the workshop. Would be really interesting to see what they covered, and he did it with Anderson. There is also a whole GitHub repo to check out
 ![[sunag7.jpg]]
 ![[sunag8.jpg]]
-There should be a photo of him taking a photo at the conference with the backdrop of him taking a photo at the workshop. Was very inception like but also very sweet.
+
+Photo of him taking a photo at the conference with the backdrop of him taking a photo at the workshop.
 ![[sunag10.jpg]]
 
 Codrops summary: "TSL brings GPU logic into JavaScript through composable node systems, connecting materials, post-processing and compute in ways that make complex rendering workflows easier to build and reuse."
@@ -831,15 +835,17 @@ Geogen to create the terrain, threw a point light in [Houdini](https://www.sidef
 4. Self-shadowing
 5. Global illumination
 6. Ray trace along axis and combine.
-                                                                                                                                                                                                                                                                                                                                                                                             ![[edwan.jpg]]
 
-All about prebaking shadows and image sequencing the. baked shadows. How they were able to do this with shadows and display in I think houdini? Was epic and then they go the AI to figure it out.
+![[edwan.jpg]]
+
+All about prebaking shadows and image sequencing the baked shadows.
+
 ![[edwan1.jpg]]
 
-This guy had serious charisma, owned the stage like one of his sites. The constant flexes were hilarious. Looks like fun to work with.
+The constant flexes were hilarious. Really fun talk.
 
 ![[edwan2.jpg]]
-Oryzo seems to be a new project they're working on. What is it? They used the coaster as a placement tool for everything including the condom they animated tearing.
+Oryzo is a newer project they're working on. They used the coaster as a placement tool for everything including the condom they animated tearing.
 ![[edwan3.jpg]]
 
 He showed how the other objects were imposed on the table, how they did the shadows, and who he got the shapes for the shadows from.
@@ -852,7 +858,7 @@ More about the coaster shader they used for placement, which was key to the whol
 Overlaying the palm shadow on the table and the items that will need to be placed.
 ![[edwan6.jpg]]
 
-Texture atlas, texture mapping, and linear algebra were useful until they spotted the pattern, and then they found the pattern.
+Texture atlas, texture mapping, and linear algebra was useful for them and helped them spot the pattern.
 ![[edwan7.jpg]]
 
 Fourier Transform: "a mathematical operation that breaks down a complex signal or wave into its basic constituent frequencies."
@@ -860,7 +866,7 @@ Fourier Transform: "a mathematical operation that breaks down a complex signal o
 > [!info]- Fourier Transform (FFT):
 > Any complex signal can be rebuilt by adding simple sine waves of different frequencies. The Fourier transform works out which waves and how much of each (mean + harmonic 1 + 2 + 3 = reconstructed curve).
 > It's useful because thousands of samples become a handful of coefficients. Cheaper to store, and cheap to evaluate in a shader.
-> The polynomial slide is the same trick with different building blocks - pixel values (bars) fitted with a cubic `ax3 + bx2 + cx + d`. Polynomials suit smooth trends, sines suit anything that oscillates.
+> The polynomial slide is the same trick with different building blocks - pixel values (bars) fitted with a cubic `ax³ + bx² + cx + d`. Polynomials suit smooth trends, sines suit anything that oscillates.
 > Useful for wind / foliage - sum a few sines at different speeds for natural sway. Also ocean & cloth, waves are summed sines (FFT oceans). Compression - JPEGS's Discrete Cosine Transform(DCT) (a relative of FFT that only uses cosine waves) low frequencies, drops the rest. Also useful for procedural noise - Perlin / fractal Brownian motion (fBm) stack octaves the same way
 > fBm - layers noise by stacking several copies, with each copy (an octave) having double the frequency and half the amplitude of the last, resulting in big smooth hills with medium bumps and fine grain. (standard recipe for terrain, clouds and water in shaders). It's the same "sum of frequencies" as FFT just with noise as the building block instead of sines.
 
@@ -878,7 +884,7 @@ Simpler shader evaluation:
 Principal Component Analysis (PCA):
 ![[edwan13.jpg]]
 
-Codrops summary: "took us behind the scenes of their work, showing how seemingly complex visuals are often built by combining simple tricks: optimized geometry, baked information, tightly packed textures, shadersa nd even images or image sequences enhanced with depth. He kept the audience guessing how each effect was made."
+Codrops summary: "took us behind the scenes of their work, showing how seemingly complex visuals are often built by combining simple tricks: optimized geometry, baked information, tightly packed textures, shaders and even images or image sequences enhanced with depth. He kept the audience guessing how each effect was made."
 
 ### 3D Tool & Ecosystem
 
@@ -888,13 +894,13 @@ Back and forth between them, how they all came from larger companies and are now
 
 ### Lightning talks
 
-1. [Planners 3D](https://planners3d.com/) - beta no-code platform for publishing real-time 3D experience.
-2. Laura explored connection between physical and digital worlds with playful set up using physical objects to control visuals on screen - don't remember this one, but think it was the lady from London who was very nervous and playing around with the giant plastic easter eggs. Two talks rolled into one? Think there were supposed to be 10 lightning talks but Codrops only lists 8. These were less polished than day 1
-3. [Michael Bloom](https://www.linkedin.com/company/dezea/) introduced [Blackbird awards](https://blackbirdawards.com/) - seems to be a different way to give web awards in an age of copying. Exactly how wasn't clear.
-4. [Nicolas Barradeau](https://x.com/nicoptere) comes onto stage, says nothing and starts playing the gemini video and image gen preview. ![[nikolas.jpg]] CoDrops: "gave us an AI + 3D presentation that quickly turned into some glorious conference trolling". The photo op was funny. ![[nikolas1.jpg]]
-5. [Palash Bansal](https://in.linkedin.com/in/repalash) presented [iJewel](https://www.ijewel3d.com/) the 3D AR and jewerly try on /configurator.
-6. Bobby Q (YouTuber - goatee red t-shirt bobby something else on YouTube add pics) - sharing work on YouTube and build community while you learn.
-7. Isabel and David (Isabel with the epic NASA data visualizer must say thanks again and play around with it a bit more) ![[Isabelle1.jpg|400]] The Napoleon-themed AI fight: there was some comedy as things went quite wrong in the beginning. Isabel made some beautiful illustrations, and David was the dev wiz. End result was hilarious. ![[Isabelle.jpg|400]]
+1. [Planners 3D](https://planners3d.com/) - beta no-code platform for publishing real-time 3D experiences.
+2. Laura explored connection between physical and digital worlds with playful set up using physical objects to control visuals on screen. Playing around with giant plastic easter eggs.
+3. [Michael Bloom](https://www.linkedin.com/company/dezea/) introduced [Blackbird awards](https://blackbirdawards.com/) as different way to give web awards in an age of copying.
+4. [Nicolas Barradeau](https://x.com/nicoptere) comes onto stage, says nothing and starts playing the gemini video and image gen preview. ![[nikolas.jpg]] CoDrops: "gave us an AI + 3D presentation that quickly turned into some glorious conference trolling". The photo op was great. ![[nikolas1.jpg]]
+5. [Palash Bansal](https://in.linkedin.com/in/repalash) presented [iJewel](https://www.ijewel3d.com/) the 3D AR and jewelry try on /configurator.
+6. Bobby Q sharing work on YouTube and talking about building community while you learn.
+7. Isabelle and David ![[Isabelle1.jpg|400]] The Napoleon-themed AI fight: there was some comedy as things went quite wrong in the beginning. Isabel made some beautiful illustrations, and David was the dev wiz. End result was hilarious. ![[Isabelle.jpg|400]]
 8. Matias Perez - JoCo 3D tooling to make blender to three.js workflow easier.
 
 ### Antoine Menard - Merci Michel
@@ -903,19 +909,19 @@ Back and forth between them, how they all came from larger companies and are now
 
 [Website](https://www.merci-michel.com/)
 [X](https://x.com/IamKonky)
-[LinkedIN](https://www.linkedin.com/in/antoinemenard/)
-This was a very experimental talk, as Antoine wasn't comfortable with his English (spoke wonderful English chatting to him on the boat, very sweet and humble too, kept wanting to call him Michel - who is Michel at the org or is it just a name?).
+[LinkedIn](https://www.linkedin.com/in/antoinemenard/)
+This was a very experimental talk as the team tried to rig up real-time translations for the talk in French and things did not go according to plan. Antoine handled it like a champion though.
 
 ![[antoine.mp4|400]]
 
-They love making games at [Merci-Michel](https://www.merci-michel.com/) and combining technical dept with curiosity. He shared the F1 game he made for Redbull and one of the famous drivers who played it. Was hilarious when he unlocked a cheat on the game and overtook him on video.
+They love making games at [Merci-Michel](https://www.merci-michel.com/) and combining technical dept with curiosity. He shared the F1 game he made for Red Bull and one of the famous drivers who played it. Was hilarious when he unlocked a cheat on the game and overtook him on video.
 ![[antoine1.jpg]]
 
 ![[antoine2.mp4]]
 
 ![[antoine3.mp4]]
 
-CoDrops summary: "behind the scenes of how they build environments, showing projects for Red Bull, Microsoft 365 and Hermès. Despite the very different styles, the process was remarkably consistent: prototype early, experiement with composition and interaction, and build the world around the experience. For Antoine, real-time 3D doesn't have to look like 3D. It can be a way to stage and experience and create a world around the user"
+CoDrops summary: "behind the scenes of how they build environments, showing projects for Red Bull, Microsoft 365 and Hermès. Despite the very different styles, the process was remarkably consistent: prototype early, experiment with composition and interaction, and build the world around the experience. For Antoine, real-time 3D doesn't have to look like 3D. It can be a way to stage and experiment and create a world around the user"
 ![[antoine4.mp4]]
 
 [Merci Michel](http://no.merci-michel.com/)
@@ -923,7 +929,7 @@ His bot is called King Antoine.
 
 ### Bruno Simon - Memorable websites
 
-#### Founder of Three.js journey - What makes a memorable website
+#### Founder of Three.js Journey - What makes a memorable website
 
 [website/portfolio](https://bruno-simon.com/)
 [X](https://x.com/bruno_simon)
@@ -932,75 +938,81 @@ His bot is called King Antoine.
 He's released a new TSL chapter and his portfolio which he drove around on stage. It was epic. Stood on stage with a controller and drove his way through his portfolio with the points of the talk that would drop animatedly with a boom onto the floor and the next point. It was really well done.
 
 ![[bruno1.jpg]]
-7 Rules for a Memorable Web Experience
+**7 Rules for a Memorable Web Experience**
 
-1. Animate Everything
-                                                                                                                                                                                                                                                                                                                                                                                             ![[bruno5.jpg]]
+**1. Animate Everything**
+![[bruno5.jpg]]
 
-- Nomadic Tribe By makemepulse
-                                                                                                                                                                                                                                                              ![[bruno7.jpg]]
-- In Pieces - by Bryan James (website that shows endangered species)
-                                                                                                                                                                                                                                                              ![[bruno8.jpg]]
-- Anime.js V4 by Julian Garnier
-                                                                                                                                                                                                                                                              ![[bruno9.jpg]]
-- Junni Is...
-                                                                                                                                                                                                                                                              ![[bruno10.jpg]]
-- KPR By Resn ("A familiar world... set on a different path)
-                                                                                                                                                                                                                                                              ![[bruno11.jpg]]
+- Nomadic Tribe By makemepulse ![[bruno7.jpg]]
+
+- In Pieces by Bryan James (website that shows endangered species) ![[bruno8.jpg]]
+- Anime.js V4 by Julian Garnier ![[bruno9.jpg]]
+
+- Junni Is... ![[bruno10.jpg]]
+- KPR By Resn ("A familiar world... set on a different path") ![[bruno11.jpg]]
 - David Whyte Experience By Immersive Garden
 
-1. Make it smooth on any device
-                                                                                                                                                                                                                                                                                                                                                                                             ![[bruno12.jpg]]
+**2. Make it smooth on any device**
+![[bruno12.jpg]]
 
-- Pioneer - Corn Revolutionized by Resn
-                                                                                                                                                                                                                                                              ![[bruno13.jpg]]
-- CRU-CI-FORM By Jaume sanchez Elias
-                                                                                                                                                                                                                                                              ![[bruno14.jpg]]
-- three.js hub
-                                                                                                                                                                                                                                                              ![[bruno15.jpg]]
+- Pioneer - Corn Revolutionized by Resn ![[bruno13.jpg]]
+- CRU-CI-FORM By Jaume Sanchez Elias ![[bruno14.jpg]]
+- three.js hub ![[bruno15.jpg]]
 
-![[bruno16.mp4]] 3. One Unique Feature
+![[bruno16.mp4]]
 
-- Elastic Man By David Li
-                                                                                                                                                                                                                                                              ![[bruno17.jpg]]
-- Basement Studio By basement studio
-                                                                                                                                                                                                                                                              ![[bruno18.jpg]]
-- Paper planes By Active Theory
-                                                                                                                                                                                                                                                              ![[bruno19.jpg]]
-- Cursor camp by Neal Agarwal
-                                                                                                                                                                                                                                                              ![[bruno20.jpg]]
+**3. One Unique Feature**
+
+- Elastic Man By David Li ![[bruno17.jpg]]
+- Basement Studio By basement studio ![[bruno18.jpg]]
+- Paper planes By Active Theory ![[bruno19.jpg]]
+- Cursor camp by Neal Agarwal ![[bruno20.jpg]]
 - Entangled By Bjorn Staal
-                                                                                                                                                                                                                                                              ![[bruno21.jpg]]
-                                                                                                                                                                                                                                                              ![[bruno21.jpg]]
-- Pablo the Flamingo
-                                                                                                                                                                                                                                                              ![[bruno23.mp4]]
 
-![[bruno24.jpg]] 4. Iterate Fast
+![[bruno21.jpg]]
 
-- Hatom By Immersive Garden
-                                                                                                                                                                                                                                                              ![[bruno25.jpg]]
-                                                                                                                                                                                                                                                              ![[bruno25.mp4]]
+- Pablo the Flamingo ![[bruno23.mp4]]
+
+![[bruno24.jpg]]
+
+**4. Iterate Fast**
+
+- Hatom By Immersive Garden ![[bruno25.jpg]]
+
+![[bruno25.mp4]]
+
 - Bruno's portfolio site
-                                                                                                                                                                                                                                                              ![[bruno26.jpg]]
-                                                                                                                                                                                                                                                              ![[bruno37.mp4]]
 
-![[bruno27.jpg]] 5. Keep them entertained
+![[bruno26.jpg]]
+![[bruno37.mp4]]
+![[bruno27.jpg]]
+
+**6. Keep them entertained**
 
 - Keep throwing shit at them
-                                                                                                                                                                                                                                                              ![[bruno28.jpg]]
+
+![[bruno28.jpg]]
+
 - My Deejo by BETC & Nicolas Barradeau
 
-![[bruno30.jpg]] 5. Treat Sound as a Feature not a bonus
+[[bruno30.jpg]]
+
+**7. Treat Sound as a Feature not a bonus**
 
 - Thankless Games
-                                                                                                                                                                                                                                                              ![[bruno31.jpg]]
-- RESN By Resn
-                                                                                                                                                                                                                                                              ![[bruno32.jpg]]
-                                                                                                                                                                                                                                                              ![[bruno34.mp4]]
-- Revo Realms By Aleksander Gjoreski
-                                                                                                                                                                                                                                                              ![[bruno36.jpg]]
 
+![[bruno31.jpg]]
+
+- RESN By Resn
+
+![[bruno32.jpg]]
+![[bruno34.mp4]]
+
+- Revo Realms By Aleksander Gjoreski
+
+![[bruno36.jpg]]
 ![[bruno.mp4]]
+
 Codrops summary: "approached the same question (building experience people remember) from the other side, using his own work to share his rules for memorable experiences: animate everything, keep it smooth, find one original feature, iterate quickly, entertain people, use sound as a feature, and collect inspiration long before production begins."
 
 ![[bruno38.mp4]]
@@ -1017,7 +1029,7 @@ Thanks to the crew: [Houmahani Kane](https://www.linkedin.com/in/houmahanikane/)
 
 #### Fluctuart, sponsored by Vercel & Spline
 
-The after party was held on [Fluctuart](https://fluctuart.fr/) going between 6pm - 12am (think it landed up going later)
+The after party was held on [Fluctuart](https://fluctuart.fr/) going between 6pm - 12am
 
 > [!photo]- Gallery
 > ![[afterParty.jpg|400]] ![[afterParty2.jpg|400]]

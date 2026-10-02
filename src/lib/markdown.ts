@@ -85,6 +85,7 @@ function convertCallouts(md: string) {
       const attrs = fold === '-' ? '' : ' open'
       out.push(
         `> <details class="callout" data-type="${type}"${attrs}><summary>${title || type}</summary>`,
+        '>',
       )
       open = true
     } else if (open && !line.startsWith('>')) {
@@ -142,6 +143,7 @@ function wrapTalks(md: string) {
       out.push(
         `<details class="talk" id="${id}">`,
         `<summary>${title}</summary>`,
+        '',
       )
       inTalk = true
     } else if (line.startsWith('## ')) {
