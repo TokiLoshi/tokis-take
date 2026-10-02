@@ -381,7 +381,7 @@ _Kris:_ (Kristopher Baumgartner)
 
 ![[pmndrs7.jpg]]
 
-Kris is from New York, was skepitcal about AI joking about having a robot looming over the community.
+Kris is from New York, was sceptical about AI particularly the impact on the community.
 ![[pmndrs2.jpg|400]]
 
 Roughly 1/3 of three.js installs also use R3F (three.js is imperative, and R3F is Declarative).
@@ -412,7 +412,7 @@ The principles:
 Trust allows enterprises and unicorns to build on their software even without having founded an org. They signed the charter in July 2026 based on questions they needed to answer.
 ![[pmndrs14.jpg]]
 
-Initiatives are based on what people love. They come from people who build based on motivation; but if they build with purpose (solving a problem that has been proven to exist), then they can have the autonomy to proceed. Shares the story of someone building something they love and have spent ages on as a passion project, only to show it to someone who says it doesn't work or isn't needed, and then they become demotivated. The new way of building as a collective is they decide on things is that they will decide on the why and the how, and then people have autonomy to build as they see fit with the guiding principles.
+Initiatives are based on what people love. They come from people who build based on motivation; but if they build with purpose (solving a problem that has been proven to exist), then they can have the autonomy to proceed. Shares the story of someone building something they love and have spent ages on as a passion project, only to show it to someone who says it doesn't work or isn't needed, and then they become demotivated. The new way of building as a collective is that they will decide on the why and the how, and then people have autonomy to build as they see fit with the guiding principles.
 ![[pmndrs16.jpg]]
 
 They also mentioned the Discord had died, maintainers were disappearing and now people are reaching out to them on X. They're hopeful this conference will bring people back and they can revive the community.
@@ -441,7 +441,8 @@ Aim is to get closer to what native apps can do.
 - HTML in Canvas (sorry Google)
 - New design system with shaders
 - Math - Isaac Nelson
-                                                                                                                                                                                                                    ![[pmndrs20.jpg]]
+
+![[pmndrs20.jpg]]
 
 ```bash
 npm i math
@@ -492,7 +493,7 @@ The Edition [Shopify Editions](https://www.shopify.com/ca/editions) - comes out 
 Shows a series of fun experiments
 ![[damien8.mp4]]
 
-8K 60FPS in browser on [Vegas Sphere](<[link??](https://www.shopify.com/news/live-globe-2024)>) all WebGL - three.js.
+8K 60FPS in browser on [Vegas Sphere](https://www.shopify.com/news/live-globe-2024) all WebGL - three.js.
 
 They have a way to deploy quickly and share in the office or across the company: quick.shopify.io to deploy across the company. AI-friendly.
 
@@ -512,7 +513,8 @@ Rules for the sites they build:
 3. Wahou effect
 4. Sound and music
 5. Multiplayer
-                                                                                                                                                                                                                                                                                                                                                                                      ![[damien12.jpg]]
+
+![[damien12.jpg]]
 
 [tearable UI (Really cool)](https://shouldseethis.com/website/tearable/)
 Confetti machine, why not!?
@@ -612,7 +614,7 @@ The colour mapping and rgb painting to vector was really cool.
 End product:
 ![[mikhail6.jpg]]
 
-Codrops summary:[Misha Kiiatkin](https://www.linkedin.com/in/mesqme/) took us through the pipeline his team developed for a game, starting with simple low-poly models and hand-painted textures before optimizing everything for Three.js. Texture atlases, KTX2 compression, and geometry batching help turn all that detailed artwork into an efficient final scene, with the goal of keeping the creative process fast without sacrificing the visual style."
+Codrops summary: "[Misha Kiiatkin](https://www.linkedin.com/in/mesqme/) took us through the pipeline his team developed for a game, starting with simple low-poly models and hand-painted textures before optimizing everything for Three.js. Texture atlases, KTX2 compression, and geometry batching help turn all that detailed artwork into an efficient final scene, with the goal of keeping the creative process fast without sacrificing the visual style."
 
 ### Anderson Mancini - WebGPU
 
@@ -644,9 +646,13 @@ Back to the project which needed 15,000 trees. ![[anderson5.jpg|400]]
 
 1. Tried instancing and it immediately dropped to 10 FPS because of the density of the trees and the complexity ![[anderson6.jpg]]
 2. Billboards - trees out of textures and then isntance them but it all looks the same like that so that doesn't work.
-3. Octahedral imposters - these are used in Fortnight. Create an atlas for every angle.
-   [[anderson7.jpg|400]]
-4. Texture based on where to plant the trees so you can be sure it's not. you're not planting them in a road or otherwise occupied space (texture map) ![[anderson8.jpg]]
+3. Octahedral imposters - these are used in Fortnite. Create an atlas for every angle.
+
+![[anderson7.jpg|400]]
+
+4. Texture based on where to plant the trees so you can be sure you're not planting them in a road or otherwise occupied space (texture map)
+
+![[anderson8.jpg|400]]
 
 ![[anderson9.jpg|400]]
 
@@ -721,7 +727,7 @@ To optimize you need to know where the time goes.
 - Grid - transfer, update, move, repeat,
 - Opacity node in TSL - TSL materials
 - Flatten.
-- Billboard depth - TSL depthn node (very expensive)
+- Billboard depth - TSL depth node (very expensive)
 - Visibility buffers (basically what Unreal Engine is using) - use id and get the data
 - Kinect for this
 - Media pipe vs kinect for tracking (trade-offs)
@@ -799,12 +805,14 @@ The web is a stage and you should stage things properly.
 [X](https://x.com/sea3dformat)
 [GitHub](https://github.com/sunag)
 
+![[sunag.jpg]]
+
 - Breaking down the Gaussian blur.
-                                                                                          ![[sunag.jpg]]
 - Node extends temp node TempNode
 - MRT - Multiple render targets
 - TSL Guide will be available in the next release.
-                                                                                          ![[sunag1.jpg]]
+
+![[sunag1.jpg]]
 
 Walks through the benefits of TSL (more from a perspective of what it gets to do than too many of the technicalities).
 Would have been awesome to see this workshop. Real name is Jean Carlo Deconto but everyone calls him Sunag from online so he goes by that now.
@@ -822,7 +830,7 @@ Photo of him taking a photo at the conference with the backdrop of him taking a 
 Codrops summary: "TSL brings GPU logic into JavaScript through composable node systems, connecting materials, post-processing and compute in ways that make complex rendering workflows easier to build and reuse."
 ![[sunag12.jpg]]
 
-### Edwan Kwan - Lusion
+### Edan Kwan - Lusion
 
 #### Inside Lusion
 
@@ -914,7 +922,7 @@ This was a very experimental talk as the team tried to rig up real-time translat
 
 ![[antoine.mp4|400]]
 
-They love making games at [Merci-Michel](https://www.merci-michel.com/) and combining technical dept with curiosity. He shared the F1 game he made for Red Bull and one of the famous drivers who played it. Was hilarious when he unlocked a cheat on the game and overtook him on video.
+They love making games at [Merci-Michel](https://www.merci-michel.com/) and combining technical depth with curiosity. He shared the F1 game he made for Red Bull and one of the famous drivers who played it. Was hilarious when he unlocked a cheat on the game and overtook him on video.
 ![[antoine1.jpg]]
 
 ![[antoine2.mp4]]
