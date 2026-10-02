@@ -9,8 +9,11 @@ function ExperimentPage() {
   return (
     <>
       <header className="mx-auto max-w-6xl px-6 pt-8">
-        <Link to="/">
-          <HomeIcon className="size-5" />
+        <Link
+          to="/"
+          className="inline-flex items-center gap-2 text-sm text-slate-400 transition hover:text-amber-300"
+        >
+          <HomeIcon className="size-8" />
           Toki's Take
         </Link>
       </header>
