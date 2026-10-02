@@ -1,4 +1,4 @@
-import { createFileRoute } from '@tanstack/react-router'
+import { createFileRoute, Link } from '@tanstack/react-router'
 import { FlaskConical, HomeIcon } from 'lucide-react'
 
 export const Route = createFileRoute('/experiments/')({
@@ -8,18 +8,21 @@ export const Route = createFileRoute('/experiments/')({
 function ExperimentPage() {
   return (
     <>
-      <div className="mx-auto max-w-6xl px-6 py-12 justify">
-        <div className="justify-center items-center text-center">
-          <h2 className="text-2xl">Experiments brewing... brb</h2>
-          <FlaskConical className="mx-auto mt-3" />
-          <p className="mt-2">Nothing to see just yet</p>
+      <header className="mx-auto max-w-6xl px-6 pt-8">
+        <Link to="/">
+          <HomeIcon className="size-5" />
+          Toki's Take
+        </Link>
+      </header>
+      <main className="flex min-h-[70vh] items-center justify-center px-6">
+        <div className="w-full max-w-sm rounded-2xl border border-white/10 bg-white/5 p-8 text-center backdrop-blur-sm">
+          <FlaskConical className="mx-auto mb-4 size-10 text-amber-400 motion-safe:animate-bounce" />
+          <h1 className="font-display text-3xl">Experiments brewing...</h1>
+          <p className="mt-2 text-slate-400">
+            Nothing to see just yet. Check back soon!
+          </p>
         </div>
-        <div className="p-8 justify-around">
-          <a href="/" className=" hover:text-slate-400">
-            <HomeIcon />
-          </a>
-        </div>
-      </div>
+      </main>
     </>
   )
 }
