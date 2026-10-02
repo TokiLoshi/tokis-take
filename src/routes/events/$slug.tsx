@@ -7,29 +7,11 @@ import {
   redirect,
 } from '@tanstack/react-router'
 import { createServerFn } from '@tanstack/react-start'
-import { readFile, readdir } from 'node:fs/promises'
+import { readFile } from 'node:fs/promises'
 import path from 'node:path'
 import { ArrowBigDownDash, ArrowBigUpDash, HomeIcon } from 'lucide-react'
 import { useRef, useState } from 'react'
 import type { MouseEvent } from 'react'
-
-async function listFiles(
-  dir: string,
-  root = dir,
-): Promise<Map<string, string>> {
-  const map = new Map<string, string>()
-  for (const entry of await readdir(dir, { withFileTypes: true })) {
-    const fullPath = path.join(dir, entry.name)
-    if (entry.isDirectory()) {
-      for (const [k, v] of await listFiles(fullPath, root)) {
-        map.set(k, v)
-      }
-    } else {
-      map.set(entry.name, path.relative(root, fullPath))
-    }
-  }
-  return map
-}
 
 const getEvent = createServerFn({ method: 'GET' })
   .validator((slug: string) => {
@@ -46,13 +28,13 @@ const getEvent = createServerFn({ method: 'GET' })
       path.join(process.cwd(), 'content/events', slug, 'notes.md'),
       'utf8',
     )
-    const attachments = path.join(
-      process.cwd(),
-      'public/events',
-      slug,
-      'attachments',
+
+    const manifest = await readFile(
+      path.join(process.cwd(), 'content/events', slug, 'attachments.json'),
+      'utf8',
     )
-    const files = await listFiles(attachments)
+    const files = new Map<string, string>(Object.entries(JSON.parse(manifest)))
+
     return renderMarkdown(md, `/events/${slug}/attachments`, files)
   })
 export const Route = createFileRoute('/events/$slug')({

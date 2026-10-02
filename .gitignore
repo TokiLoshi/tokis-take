@@ -15,5 +15,6 @@ todos.json
 # Local Netlify folder
 .netlify
 
-nodes.md
-notes.md
+/notes.md
+
+content/events/*/attachments.json
