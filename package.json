@@ -28,6 +28,7 @@
     "gray-matter": "^4.0.3",
     "leva": "^0.10.1",
     "lucide-react": "^1.48.0",
+    "posthog-js": "^1.436.1",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "rehype-external-links": "^3.0.0",

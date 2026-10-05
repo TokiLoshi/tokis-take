@@ -5,11 +5,29 @@ import {
   createRootRoute,
 } from '@tanstack/react-router'
 import appCss from '../styles.css?url'
-import { lazy, Suspense } from 'react'
+import { lazy, Suspense, useEffect } from 'react'
+import posthog from 'posthog-js'
 
 const Background = lazy(() =>
   import('#/components/Background').then((m) => ({ default: m.Background })),
 )
+
+const Analytics = () => {
+  if (window.location.host.includes('localhost')) return
+  useEffect(() => {
+    const key = import.meta.env.VITE_POSTHOG_KEY
+    if (!key) throw new Error('Posthog key not configured')
+    posthog.init(key, {
+      api_host: 'https://us.i.posthog.com',
+      persistence: 'memory',
+      capture_pageview: 'history_change',
+      autocapture: false,
+      disable_session_recording: true,
+      defaults: '2026-05-30',
+    })
+  }, [])
+  return null
+}
 
 export const Route = createRootRoute({
   head: () => ({
@@ -49,6 +67,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
       <ClientOnly>
         <Suspense fallback={null}>
           <Background />
+          <Analytics />
         </Suspense>
       </ClientOnly>
 
